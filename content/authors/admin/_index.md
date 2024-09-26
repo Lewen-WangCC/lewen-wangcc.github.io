@@ -43,8 +43,8 @@ education:
       Courses included: Physical Chemistry; Advanced Inorganic Chemistry; Determination of Molecular Structure; Calculus & Linear Algebra I & II; Multivariate Calculus & Ordinary Differential Equations; Quantum Mechanics I
 
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: Development of On-the-Fly Machine Learning Force Fields for Spin Crossover Materials
+    company_name: Supervised by Prof. Ben Powell and Dr Carla Verdi
     company_url: ''
     company_logo: ''
     date_start: 2021-01-01
@@ -99,14 +99,6 @@ skills:
         description: ''
         percent: 80
         icon: camera
-
-languages:
-  - name: English
-    percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
 
 # Awards.
 #   Add/remove as many awards below as you like.
