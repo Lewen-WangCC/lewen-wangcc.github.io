@@ -21,7 +21,7 @@ sections:
     design:
       banner:
         # Upload your cover image to the `assets/media/` folder and reference it here
-        filename: nasa--hI5dX2ObAs-unsplash.jpg
+        filename: nasa-hubble-space-telescope-VDTOzZ_OZz4-unsplash.jpg
       biography:
         # Customize the style of your biography text
         style: 'text-align: justify; font-size: 0.8em;'
