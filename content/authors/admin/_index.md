@@ -136,4 +136,4 @@ Welcome to my homepage! I am currently an Honours student in Chemistry at [the U
 
 My recent research revolves around first-principles calculations of strongly correlated materials, combined with machine learning-accelerated _ab initio_ molecular dynamics simulations, aiming to understand fascinating emergent behaviours in condensed matter phases. 
 
-**I am actively seeking PhD opportunities in theoretical and computational chemistry, with a strong interest for developing new methods in electronic structure theory.**
+**I am actively seeking PhD opportunities in theoretical and computational chemistry, with a strong interest in developing new methods for electronic structure theory.**
