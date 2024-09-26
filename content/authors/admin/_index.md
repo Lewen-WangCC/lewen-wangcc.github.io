@@ -33,37 +33,15 @@ profiles:
     url: https://www.instagram.com/camilleethw
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: Bachelor of Advanced Science (Honours) in Chemistry
+    institution: The University of Queensland
+    date_start: 2020-02
+    date_end: 2024-12
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+      Honours Thesis: _On-the-fly machine learning force field accelerated ab initio molecular dynamics for [Fe(ptz)6](BF4)2_, 50 pages
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Courses included: Physical Chemistry; Advanced Inorganic Chemistry; Determination of Molecular Structure; Calculus & Linear Algebra I & II; Multivariate Calculus & Ordinary Differential Equations; Quantum Mechanics I
+
 work:
   - position: Director of Cloud Infrastructure
     company_name: GenCoin
@@ -162,4 +140,4 @@ awards:
       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
 
-Welcome to my homepage! I am currently an Honours student in Chemistry at the University of Queensland, under the supervision of Prof. Ben Powell (https://people.smp.uq.edu.au/BenPowell/index.html) and Dr Carla Verdi. 
+Welcome to my homepage! I am currently an Honours student in Chemistry at the University of Queensland, under the supervision of [Prof. Ben Powell](https://people.smp.uq.edu.au/BenPowell/index.html) and Dr Carla Verdi. 
