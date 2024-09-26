@@ -21,16 +21,16 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:h.tan1@student.uq.edu.au'
     label: E-mail Me
   - icon: brands/x
-    url: https://twitter.com/GetResearchDev
+    url: https://www.xiaohongshu.com/user/profile/651b83dc000000002302476d
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/Huiwen-Tan
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/huiwen-tan-4aa8901b2/
   - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://www.instagram.com/camilleethw
 
 education:
   - area: PhD Artificial Intelligence
