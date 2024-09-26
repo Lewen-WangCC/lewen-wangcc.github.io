@@ -23,7 +23,7 @@ profiles:
   - icon: at-symbol
     url: 'mailto:h.tan1@student.uq.edu.au'
     label: E-mail Me
-  - icon: brands/x
+  - icon: custom/Red
     url: https://www.xiaohongshu.com/user/profile/651b83dc000000002302476d
   - icon: brands/github
     url: https://github.com/Huiwen-Tan
