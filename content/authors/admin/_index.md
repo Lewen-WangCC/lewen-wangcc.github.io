@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 吳健雄
+title: Huiwen Tan
 
 # Full name (for SEO)
 first_name: Huiwen
@@ -10,12 +10,12 @@ last_name: Tan
 superuser: true
 
 # Role/position/tagline
-role: Honours Student in Chemistry
+role: Honours Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
   - name: The University of Queensland
-    url: https://www.example.com/
+    url: https://scmb.uq.edu.au/profile/12166/huiwen-tan
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
