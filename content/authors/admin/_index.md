@@ -38,7 +38,7 @@ education:
     date_start: 2020-02-01
     date_end: 2024-12-01
     summary: |
-      Honours Thesis: _On-the-fly machine learning force field accelerated ab initio molecular dynamics for spin crossover materials_, 50 pages
+      Honours Thesis: "On-the-fly machine learning force field accelerated _ab initio_ molecular dynamics for spin crossover materials", 50 pages
 
       Courses included: Physical Chemistry; Advanced Inorganic Chemistry; Determination of Molecular Structure; Calculus & Linear Algebra I & II; Multivariate Calculus & Ordinary Differential Equations; Quantum Mechanics I
 
@@ -140,4 +140,4 @@ awards:
       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
 
-Welcome to my homepage! I am currently an Honours student in Chemistry at the University of Queensland, under the supervision of [Prof. Ben Powell](https://people.smp.uq.edu.au/BenPowell/index.html) and Dr Carla Verdi. I am actively seeking PhD opportunities in theoretical and computational chemistry, with a strong passion for developing new methods in electronic structure theory! 
+Welcome! I am currently an Honours student in Chemistry at the University of Queensland, under the supervision of [Prof. Ben Powell](https://people.smp.uq.edu.au/BenPowell/index.html) and Dr Carla Verdi. I am actively seeking PhD opportunities in theoretical and computational chemistry, with a strong passion for developing new methods in electronic structure theory.
