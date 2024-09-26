@@ -23,14 +23,14 @@ profiles:
   - icon: at-symbol
     url: 'mailto:h.tan1@student.uq.edu.au'
     label: E-mail Me
-  - icon: custom/Red
-    url: https://www.xiaohongshu.com/user/profile/651b83dc000000002302476d
   - icon: brands/github
     url: https://github.com/Huiwen-Tan
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/huiwen-tan-4aa8901b2/
   - icon: brands/instagram
     url: https://www.instagram.com/camilleethw
+  - icon: custom/Red
+    url: https://www.xiaohongshu.com/user/profile/651b83dc000000002302476d
 
 education:
   - area: Bachelor of Advanced Science (Honours) in Chemistry
