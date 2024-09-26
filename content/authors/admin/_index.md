@@ -35,8 +35,8 @@ profiles:
 education:
   - area: Bachelor of Advanced Science (Honours) in Chemistry
     institution: The University of Queensland
-    date_start: 2020-02
-    date_end: 2024-12
+    date_start: 2020-02-01
+    date_end: 2024-12-01
     summary: |
       Honours Thesis: _On-the-fly machine learning force field accelerated ab initio molecular dynamics for [Fe(ptz)6](BF4)2_, 50 pages
 
