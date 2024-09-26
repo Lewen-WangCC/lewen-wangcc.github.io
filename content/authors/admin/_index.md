@@ -132,8 +132,8 @@ awards:
       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
 
-Welcome to my homepage! I am currently an Honours student in Chemistry at the University of Queensland, under the supervision of [Prof. Ben Powell](https://people.smp.uq.edu.au/BenPowell/index.html) and Dr Carla Verdi. 
+Welcome to my homepage! I am currently an Honours student in Chemistry at [the University of Queensland](https://scmb.uq.edu.au/profile/12166/huiwen-tan), under the supervision of [Prof. Ben Powell](https://people.smp.uq.edu.au/BenPowell/index.html) and Dr Carla Verdi. 
 
 My recent research revolves around first-principles calculations of strongly correlated materials, combined with machine learning-accelerated _ab initio_ molecular dynamics simulations, aiming to understand fascinating emergent behaviours in condensed matter phases. 
 
-I am actively seeking PhD opportunities in theoretical and computational chemistry, with a strong passion for developing new methods in electronic structure theory.
+**I am actively seeking PhD opportunities in theoretical and computational chemistry, with a strong passion for developing new methods in electronic structure theory.**
