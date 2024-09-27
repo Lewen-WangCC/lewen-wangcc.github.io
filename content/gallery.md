@@ -11,10 +11,10 @@ sections:
   - block: markdown
     content:
       title: Powell Group
-      text: 
-      
-      ![PowellGroup](../assets/media/powellgroup.jpeg)
+      text: |-
 
+      ![PowellGroup](../assets/media/powellgroup.jpeg)
+      
     design: 
       columns: '1'
       view: showcase
