@@ -8,8 +8,12 @@ design:
 
 # Page sections
 sections:
-  - block: collection
+  - block: markdown
     content:
-      image: assets/media/powellgroup.jpeg
-      text: Powell Group
+      title: Powell Group
+      text: ![Powell Group](assets/media/powellgroup.jpeg)
+    design: 
+      columns: '1'
+      view: showcase
+      flip_alt_rows: true
 ---
