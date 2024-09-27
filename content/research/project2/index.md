@@ -1,12 +1,13 @@
 ---
-title: 🧠 Sharpen your thinking with a second brain
-summary: Create a personal knowledge base and share your knowledge with your peers.
-date: 2023-10-26
+title: Density Functional Theory Study of the Light-Induced Excited Spin-State Trapping Effect in Spin Crossover Materials
+summary: Supervised by Prof. Ben Powell and Dr Muhammad Nadeem
+date: 2022-10-25
 authors:
   - admin
 tags:
-  - Second Brain
-  - Markdown
+  - DFT
+  - Quantum Chemistry
+  - ADF
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---

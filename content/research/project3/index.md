@@ -1,7 +1,7 @@
 ---
-title: 🎉 Easily create your own simple yet highly customizable blog
-summary: Take full control of your personal brand and privacy by migrating away from the big tech platforms!
-date: 2023-10-27
+title: Stereoselective Reduction of 5-C-bromo-D-glucuronyl β-fluoride with the Mediation of Tributyltin Hydride - A DFT Investigation
+summary: Supervised by Prof. Elizabeth Krenske
+date: 2022-6-22
 
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
@@ -10,12 +10,10 @@ image:
 
 authors:
   - admin
-  - Ted
 
 tags:
-  - Academic
-  - Hugo Blox
-  - Markdown
+  - DFT
+  - Gaussian
 ---
 
 Welcome 👋

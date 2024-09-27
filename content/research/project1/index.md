@@ -1,12 +1,13 @@
 ---
-title: 🧠 Sharpen your thinking with a second brain
-summary: Create a personal knowledge base and share your knowledge with your peers.
-date: 2023-10-26
+title: Development of On-the-Fly Machine Learning Force Fields for Spin Crossover Materials
+summary: Supervised by Prof. Ben Powell and Dr Carla Verdi
+date: 2024-1-29
 authors:
   - admin
 tags:
-  - Second Brain
-  - Markdown
+  - ML
+  - AIMD
+  - VASP
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
