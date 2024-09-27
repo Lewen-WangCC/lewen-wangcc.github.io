@@ -1,7 +1,7 @@
 ---
 title: Stereoselective Reduction of 5-C-bromo-D-glucuronyl β-fluoride with the Mediation of Tributyltin Hydride - A DFT Investigation
 summary: Supervised by Prof. Elizabeth Krenske
-date: 2022-6-22
+date: 2022-06-22
 
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.

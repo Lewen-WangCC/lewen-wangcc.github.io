@@ -1,7 +1,7 @@
 ---
 title: Development of On-the-Fly Machine Learning Force Fields for Spin Crossover Materials
 summary: Supervised by Prof. Ben Powell and Dr Carla Verdi
-date: 2024-1-29
+date: 2024-01-29
 authors:
   - admin
 tags:
