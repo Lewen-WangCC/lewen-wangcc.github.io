@@ -1,5 +1,4 @@
 ---
-title: Research Project
-columns: '1'
+title: Research Projects
 view: article-grid
 ---
