@@ -10,22 +10,22 @@ design:
 
 # Page sections
 sections:
-  - block: resume-experience
+  # A section to display blog posts
+  - block: collection
+    id: section-1
     content:
-      username: admin
+      title: Section 1
+      subtitle: A subtitle
+      text: Add any **markdown** formatted content here - text, images, videos, galleries - and even HTML code!
+      # Display content from the `content/post/` folder
+      filters:
+        folders:
+          - research
     design:
-      # Hugo date format
-      date_format: 'January 2006'
-      # Education or Experience section first?
-      is_education_first: ture
-  - block: resume-skills
-    content:
-      title: Skills
-      username: admin
-    design:
-      show_skill_percentage: false
-  - block: resume-awards
-    content:
-      title: Awards
-      username: admin
+      # Choose how many columns the section has. Valid values: '1' or '2'.
+      columns: '1'
+      # Choose your content listing view - here we use the `showcase` view
+      view: showcase
+      # For the Showcase view, do you want to flip alternate rows?
+      flip_alt_rows: true
 ---
