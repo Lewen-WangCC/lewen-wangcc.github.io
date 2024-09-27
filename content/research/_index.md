@@ -1,5 +1,5 @@
 ---
-title: ''
+title: Research Project
 columns: '1'
-view: showcase
+view: article-grid
 ---
