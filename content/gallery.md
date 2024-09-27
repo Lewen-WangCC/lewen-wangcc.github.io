@@ -6,5 +6,10 @@ type: landing
 design:
   spacing: '5rem'
 
-![powellgroup](assets/media/powellgroup.jpeg)
+# Page sections
+sections:
+  - block: collection
+    content:
+      image: assets/media/powellgroup.jpeg
+      text: Powell Group
 ---
