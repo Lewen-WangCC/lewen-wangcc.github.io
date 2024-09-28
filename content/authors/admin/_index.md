@@ -95,7 +95,7 @@ skills:
       - name: C/C++
         description: ''
         icon: devicon/c
-      - name: Shell
+      - name: Bash
         description: ''
         icon: devicon/bash
   - name: ''
