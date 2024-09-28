@@ -98,23 +98,17 @@ skills:
       - name: Shell
         description: bash
         icon: ''
+  - name: ''
+    items:
       - name: MATLAB
         description: ''
         icon: devicon/matlab
       - name: RStudio
         description: ''
         icon: devicon/rstudio
-  - name: ''
-    items:
-      - name: Python
+      - name: Mathematica
         description: ''
-        icon: devicon/python
-      - name: RStudio
-        description: ''
-        icon: devicon/rstudio
-      - name: PyTorch
-        description: ''
-        icon: devicon/pytorch
+        icon: devicon/mathematica
 
 ---
 
