@@ -16,6 +16,6 @@ sections:
 
         I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
         
-        ![screen reader text](powellgroup.jpg)
+        ![screen reader text](powellgroup.jpg#center "caption")
         Please reach out to collaborate 😃
 ---
