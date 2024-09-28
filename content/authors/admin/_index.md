@@ -36,7 +36,7 @@ education:
     date_start: 2020-02-01
     date_end: 2024-12-01
     summary: |
-      - Major Coursework: Physical Chemistry; Experimental Chemistry 1&2; Advanced Inorganic Chemistry; Determination of Molecular Structure; Genes, Cells & Evolution; Calculus & Linear Algebra II; Mathematical Probability; Quantum Mechanics I; Analysis of Scientific Data
+      - Major Coursework: Physical Chemistry; Advanced Inorganic Chemistry; Determination of Molecular Structure; Calculus & Linear Algebra I & II; Multivariate Calculus & Ordinary Differential Equations; Quantum Mechanics I; Mathematical Probability; Quantum Mechanics I
       - Awards and Honors: Dean’s Commendation for Academic Excellence in Semester 1, 2020; Summer Scholarship for 2022/23 Summer Research Program
 
 
@@ -73,28 +73,37 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: ''
+  - name: Computational Chemistry Software
+    items:
+      - name: VASP
+        description: ''
+        icon: ''
+      - name: Gaussian
+        description: ''
+        icon: ''
+      - name: ADF
+        description: ''
+        icon: ''
+      - name: Quantum ESPRESSO
+        description: ''
+        icon: ''
+  - name: Programming Languages
     items:
       - name: Python
-        description: ''
+        description: NumPy, SciPy, Matplotlib, ASE, Phonopy, pymatgen
         icon: devicon/python
+      - name: C/C++
+        description: ''
+        icon: devicon/c
+      - name: Shell
+        description: bash
+        icon: ''
+      - name: MATLAB
+        description: ''
+        icon: devicon/matlab
       - name: RStudio
         description: ''
         icon: devicon/rstudio
-      - name: PyTorch
-        description: ''
-        icon: devicon/pytorch
-  - name: ''
-    items:
-      - name: Python
-        description: ''
-        icon: devicon/python
-      - name: RStudio
-        description: ''
-        icon: devicon/rstudio
-      - name: PyTorch
-        description: ''
-        icon: devicon/pytorch
   - name: ''
     items:
       - name: Python
