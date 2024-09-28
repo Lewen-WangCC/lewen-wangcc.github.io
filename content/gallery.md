@@ -17,12 +17,8 @@ sections:
         I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
         
         Please reach out to collaborate 😃
+    design:
+      image:
+        filename: project1.png
   
 ---
-
-{{< figure
-  src="gallery/powellgroup.jpg"
-  caption="The Great Brown Kingfisher"
-  attr="-- Project Gutenberg"
-  attrlink="http://www.gutenberg.org/files/60302/60302-h/60302-h.htm"
->}}
