@@ -4,4 +4,4 @@ date: 2024-9-27
 type: landing
 ---
 
-{{< figure src="gallery/powellgroup.jpeg" title="An elephant at sunset" >}}
+![Tux, the Linux mascot](/assets/media/project1.png)
