@@ -21,7 +21,4 @@ sections:
 
 ---
 
-<figure>
-<img src="gallery/powellgroup.jpeg">
-<figcaption><h4>An elephant at sunset</h4></figcaption>
-</figure>
+{{< figure src="gallery/powellgroup.jpeg" title="An elephant at sunset" >}}
