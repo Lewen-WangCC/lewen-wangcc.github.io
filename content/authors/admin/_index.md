@@ -97,7 +97,7 @@ skills:
         icon: devicon/c
       - name: Shell
         description: ''
-        icon: ''
+        icon: devicon/bash
   - name: ''
     items:
       - name: MATLAB
@@ -108,7 +108,7 @@ skills:
         icon: devicon/rstudio
       - name: Mathematica
         description: ''
-        icon: devicon/mathematica
+        icon: custom/mathematica
 
 ---
 
