@@ -2,4 +2,4 @@
 title: 'Gallery'
 ---
 
-![Tux, the Linux mascot](../assets/media/project1.png)
+[![Tux, the Linux mascot](gallery/powellgroup.jpeg)]
