@@ -17,25 +17,9 @@ sections:
         I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
         
         Please reach out to collaborate 😃
-  - block: markdown
-    content:
-      title: ''
-      text: ''
-    design:
-      background:
-        image:
-          # Name of image in `assets/media/`.
-          filename: powellgroup.jpg
-          # Apply image filters?
-          filters:
-            # Darken the image? Range 0-1 where 1 is transparent and 0 is opaque.
-            brightness: 1
-          #  Image fit. Options are `cover` (default), `contain`, or `actual` size.
-          size: contain
-          # Image focal point. Options include `left`, `center` (default), or `right`.
-          position: center
-          # Use a fun parallax-like fixed background effect on desktop? true/false
-          parallax: false
 ---
+This is the figure
 
 ![screen reader text](powellgroup.jpg "caption")
+
+Yes.
