@@ -36,7 +36,7 @@ education:
     date_start: 2020-02-01
     date_end: 2024-12-01
     summary: |
-      - Major Coursework: Physical Chemistry; Advanced Inorganic Chemistry; Determination of Molecular Structure; Calculus & Linear Algebra I & II; Multivariate Calculus & Ordinary Differential Equations; Quantum Mechanics I; Mathematical Probability; Quantum Mechanics I
+      - Major Coursework: Physical Chemistry; Advanced Inorganic Chemistry; Determination of Molecular Structure; Calculus & Linear Algebra I & II; Multivariate Calculus & Ordinary Differential Equations; Quantum Mechanics I; Mathematical Probability
       - Awards and Honors: Dean’s Commendation for Academic Excellence in Semester 1, 2020; Summer Scholarship for 2022/23 Summer Research Program
 
 
