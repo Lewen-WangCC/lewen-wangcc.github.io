@@ -42,7 +42,7 @@ work:
     company_url: 'https://www.uq.edu.au/'
     company_logo: ''
     date_start: 2024-02-01
-    date_end: ''
+    date_end: 2024-12-01
     summary: |3-
       Responsibilities include:
       - Taught and demonstrated the laboratory sessions of a chemistry course, CHEM1100: Chemistry 1, in Semesters 1 & 2, 2024, supervised 15-20 students
