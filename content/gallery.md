@@ -37,3 +37,5 @@ sections:
           # Use a fun parallax-like fixed background effect on desktop? true/false
           parallax: false
 ---
+
+![screen reader text](powellgroup.jpg "caption")
