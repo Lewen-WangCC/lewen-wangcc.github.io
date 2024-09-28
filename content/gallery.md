@@ -18,6 +18,8 @@ sections:
     content:
       title: 2022
       text: |-
-        This is my first poster! It was a lot of fun introducing my project to people, especially when they were interested in my research.
+        This is my first poster! It was a lot of fun introducing my project to people, especially when they were interested in my research 😄
         ![poster](poster.jpg)
+        I visited Lone Pine with the Krenske Group in August to see the cute koalas 🐨
+        ![krenskegroup](krenskegroup.jpg) 
 ---
