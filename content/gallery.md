@@ -18,4 +18,10 @@ sections:
         
         Please reach out to collaborate 😃
       image: gallery/powellgroup.jpeg
+
+<figure>
+  <img src="gallery/powellgroup.jpeg">
+  <figcaption><h4>An elephant at sunset</h4></figcaption>
+</figure>
+
 ---
