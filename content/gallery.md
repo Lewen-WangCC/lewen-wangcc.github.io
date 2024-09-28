@@ -34,4 +34,6 @@ sections:
           size: contain
           # Image focal point. Options include `left`, `center` (default), or `right`.
           position: center
+          # Use a fun parallax-like fixed background effect on desktop? true/false
+          parallax: false
 ---
