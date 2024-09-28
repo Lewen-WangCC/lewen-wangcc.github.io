@@ -103,12 +103,12 @@ skills:
       - name: MATLAB
         description: ''
         icon: devicon/matlab
-      - name: RStudio
-        description: ''
-        icon: devicon/rstudio
       - name: Mathematica
         description: ''
         icon: custom/mathematica
+      - name: RStudio
+        description: ''
+        icon: devicon/rstudio
       - name: Latex
         description: ''
         icon: custom/latex
