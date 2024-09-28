@@ -69,7 +69,7 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-    name: ''
+    - name: ''
     items:
       - name: Python
         description: ''
@@ -80,6 +80,22 @@ skills:
       - name: PyTorch
         description: ''
         icon: devicon/pytorch
+    - name: Hobbies
+    color: '#eeac02'
+    color_border: '#f0bf23'
+    items:
+      - name: Hiking
+        description: ''
+        percent: 60
+        icon: person-simple-walk
+      - name: Cats
+        description: ''
+        percent: 100
+        icon: cat
+      - name: Photography
+        description: ''
+        percent: 80
+        icon: camera
 
 ---
 
