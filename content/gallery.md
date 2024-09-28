@@ -10,11 +10,13 @@ design:
 sections:
   - block: markdown
     content:
+      title: ''
+      text: |-
+        Hi there, I am sharing some of the most wonderful and precious moments in my life 😃
+  - block: markdown
+  content:
       title: 2023
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        ![fishy](powellgroup.jpg)
-        Please reach out to collaborate 😃
+        This photo was taken in November 2023, when our people in the Powell group celebrated Dr Nadeem's completion of his PhD 🍻
+        ![powellgroup](powellgroup.jpg)
 ---
