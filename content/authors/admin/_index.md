@@ -96,7 +96,7 @@ skills:
         description: ''
         icon: devicon/c
       - name: Shell
-        description: bash
+        description: ''
         icon: ''
   - name: ''
     items:
