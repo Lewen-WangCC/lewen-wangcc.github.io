@@ -35,25 +35,20 @@ education:
     institution: The University of Queensland
     date_start: 2020-02-01
     date_end: 2024-12-01
-    summary: |
-      Honours Thesis: "On-the-fly machine learning force field accelerated _ab initio_ molecular dynamics for spin crossover materials", 50 pages
-
-      Courses included: Physical Chemistry; Advanced Inorganic Chemistry; Determination of Molecular Structure; Calculus & Linear Algebra I & II; Multivariate Calculus & Ordinary Differential Equations; Quantum Mechanics I
 
 work:
-  - position: Development of On-the-Fly Machine Learning Force Fields for Spin Crossover Materials
-    company_name: Supervised by Prof. Ben Powell and Dr Carla Verdi
+  - position: Casual Academics
+    company_name: The University of Queensland -- Brisbane, Australia
     company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
+    icon: custom/UQ
+    date_start: 2024-02-01
     date_end: ''
     summary: |2-
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
+      - Taught and demonstrated the laboratory sessions of a chemistry course, CHEM1100: Chemistry 1, in Semesters 1 & 2, 2024, supervised 15-20 students
+      - Participated in the assignments, mid- and end-of-semester exams marking and assisted in the school-based in-semester and end-of-semester exams invigilation
+  - position: Administrative Intern
+    company_name: Beijing Genomics Institute -- Shenzhen, China
     company_url: ''
     company_logo: ''
     date_start: 2016-01-01
