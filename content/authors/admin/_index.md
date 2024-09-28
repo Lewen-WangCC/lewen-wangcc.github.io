@@ -56,7 +56,7 @@ work:
     summary: |
       Responsibilities include:
       - Responsible for the laboratory management of the whole Institute of Biochemical Technology, supported the daily operation of the laboratory and administered the procurement of materials
-    - position: Testing Technician
+  - position: Testing Technician
     company_name: IMPAQ Testing Technology Co., LTD -- Shenzhen, China
     company_url: https://www.impaq-tech.com/en
     company_logo: ''
