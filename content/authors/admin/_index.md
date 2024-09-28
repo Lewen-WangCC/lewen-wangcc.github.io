@@ -109,6 +109,9 @@ skills:
       - name: Mathematica
         description: ''
         icon: custom/mathematica
+      - name: Latex
+        description: ''
+        icon: custom/latex
 
 ---
 
