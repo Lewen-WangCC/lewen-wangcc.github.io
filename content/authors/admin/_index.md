@@ -69,7 +69,7 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-    title: ''
+    name: ''
     items:
       - name: Python
         description: ''
