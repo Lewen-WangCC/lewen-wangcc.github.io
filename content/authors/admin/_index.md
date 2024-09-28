@@ -39,8 +39,8 @@ education:
 work:
   - position: Casual Academics
     company_name: The University of Queensland -- Brisbane, Australia
-    company_url: ''
-    icon: custom/UQ
+    company_url: 'https://www.uq.edu.au/'
+    company_logo: ''
     date_start: 2024-02-01
     date_end: ''
     summary: |2-
@@ -49,15 +49,22 @@ work:
       - Participated in the assignments, mid- and end-of-semester exams marking and assisted in the school-based in-semester and end-of-semester exams invigilation
   - position: Administrative Intern
     company_name: Beijing Genomics Institute -- Shenzhen, China
-    company_url: ''
+    company_url: 'https://en.genomics.cn/'
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2021-10-01
+    date_end: 2021-12-31
     summary: |
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Responsible for the laboratory management of the whole Institute of Biochemical Technology, supported the daily operation of the laboratory and administered the procurement of materials
+    - position: Testing Technician
+    company_name: IMPAQ Testing Technology Co., LTD -- Shenzhen, China
+    company_url: 'https://www.impaq-tech.com/en'
+    company_logo: ''
+    date_start: 2021-08-01
+    date_end: 2021-10-01
+    summary: |
+      Responsibilities include:
+      - Third-party testing of textile products, including pH value, and the contents of formaldehyde and heavy metal
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
