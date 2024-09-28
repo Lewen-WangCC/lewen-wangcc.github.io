@@ -100,18 +100,15 @@ skills:
         icon: devicon/bash
   - name: ''
     items:
+      - name: RStudio
+        description: ''
+        icon: devicon/rstudio
       - name: MATLAB
         description: ''
         icon: devicon/matlab
       - name: Mathematica
         description: ''
         icon: custom/mathematica
-      - name: RStudio
-        description: ''
-        icon: devicon/rstudio
-      - name: Latex
-        description: ''
-        icon: custom/latex
 
 ---
 
