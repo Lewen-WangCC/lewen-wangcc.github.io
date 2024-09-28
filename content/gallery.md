@@ -20,8 +20,10 @@ sections:
       image: gallery/powellgroup.jpeg
 
 <figure>
-  <img src="gallery/powellgroup.jpeg">
-  <figcaption><h4>An elephant at sunset</h4></figcaption>
+<img src="[def]">
+<figcaption><h4>An elephant at sunset</h4></figcaption>
 </figure>
 
 ---
+
+[def]: gallery/powellgroup.jpeg
