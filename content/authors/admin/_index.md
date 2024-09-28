@@ -38,8 +38,8 @@ education:
 
 work:
   - position: Casual Academics
-    company_name: [The University of Queensland](https://www.uq.edu.au/)
-    company_url: ''
+    company_name: The University of Queensland
+    company_url: https://www.uq.edu.au/
     company_logo: ''
     date_start: 2024-02-01
     date_end: 2024-12-01
@@ -48,8 +48,8 @@ work:
       - Taught and demonstrated the laboratory sessions of a chemistry course, CHEM1100: Chemistry 1, in Semesters 1 & 2, 2024, supervised 15-20 students
       - Participated in the assignments, mid- and end-of-semester exams marking and assisted in the school-based in-semester and end-of-semester exams invigilation
   - position: Administrative Intern
-    company_name: [Beijing Genomics Institute](https://en.genomics.cn/)
-    company_url: ''
+    company_name: Beijing Genomics Institute
+    company_url: https://en.genomics.cn/
     company_logo: ''
     date_start: 2021-10-01
     date_end: 2021-12-31
@@ -57,8 +57,8 @@ work:
       Responsibilities include:
       - Responsible for the laboratory management of the whole Institute of Biochemical Technology, supported the daily operation of the laboratory and administered the procurement of materials
   - position: Testing Technician
-    company_name: [IMPAQ Testing Technology Co., LTD](https://www.impaq-tech.com/en)
-    company_url: ''
+    company_name: IMPAQ Testing Technology Co., LTD
+    company_url: https://www.impaq-tech.com/en
     company_logo: ''
     date_start: 2021-08-01
     date_end: 2021-10-01
@@ -73,32 +73,13 @@ skills:
     items:
       - name: Python
         description: ''
-        percent: 80
         icon: devicon/python
       - name: RStudio
         description: ''
-        percent: 100
         icon: devicon/rstudio
       - name: PyTorch
         description: ''
-        percent: 40
         icon: devicon/pytorch
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
 
 # Awards.
 #   Add/remove as many awards below as you like.
