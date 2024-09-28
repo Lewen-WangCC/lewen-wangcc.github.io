@@ -43,7 +43,7 @@ work:
     company_logo: ''
     date_start: 2024-02-01
     date_end: 2024-12-01
-    summary: |3-
+    summary: |
       Responsibilities include:
       - Taught and demonstrated the laboratory sessions of a chemistry course, CHEM1100: Chemistry 1, in Semesters 1 & 2, 2024, supervised 15-20 students
       - Participated in the assignments, mid- and end-of-semester exams marking and assisted in the school-based in-semester and end-of-semester exams invigilation
