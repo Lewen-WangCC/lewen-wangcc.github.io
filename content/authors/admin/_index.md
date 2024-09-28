@@ -31,10 +31,14 @@ profiles:
     url: https://www.xiaohongshu.com/user/profile/651b83dc000000002302476d
 
 education:
-  - area: Bachelor of Advanced Science (Honours) in Chemistry
+  - area: Bachelor of Advanced Science (Honours)
     institution: The University of Queensland
     date_start: 2020-02-01
     date_end: 2024-12-01
+    summary: |
+      - Major Coursework: Physical Chemistry; Experimental Chemistry 1&2; Advanced Inorganic Chemistry; Determination of Molecular Structure; Genes, Cells & Evolution; Calculus & Linear Algebra II; Mathematical Probability; Quantum Mechanics I; Analysis of Scientific Data
+      - Awards and Honors: Dean’s Commendation for Academic Excellence in Semester 1, 2020; Summer Scholarship for 2022/23 Summer Research Program
+
 
 work:
   - position: Casual Academics
@@ -69,6 +73,17 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
+  - name: ''
+    items:
+      - name: Python
+        description: ''
+        icon: devicon/python
+      - name: RStudio
+        description: ''
+        icon: devicon/rstudio
+      - name: PyTorch
+        description: ''
+        icon: devicon/pytorch
   - name: ''
     items:
       - name: Python
