@@ -15,7 +15,10 @@ sections:
         Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
 
         I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
-        ![screen reader text](powellgroup.jpg "caption"){align=center}
+        :::{figure-md}
+        ![fishy](powellgroup.jpg){width=200px}
+
+        This is a caption in __*Markdown*__
+        :::
         Please reach out to collaborate 😃
 ---
