@@ -1,4 +1,4 @@
 ---
 title: Research Projects
-view: article-grid
+view: compact
 ---
