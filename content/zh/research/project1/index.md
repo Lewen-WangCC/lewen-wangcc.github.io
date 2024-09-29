@@ -1,32 +1,16 @@
 ---
-title: "自旋交叉材料即时机器学习力场开发"
+title: "自旋交叉材料即时机器学习力场开发（进行中）"
 summary: 由Prof. Ben Powell和Dr Carla Verdi指导
 authors:
 - admin
 date: 2024-01-29
 doi: ""
 
-publication_types: ["article"]
-
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
-
 tags:
   - ML
   - AIMD
   - VASP
 featured: false
-
-links:
-- name: Custom Link
-  url: http://example.org
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: '#'
-url_poster: '#'
-url_project: ''
-url_slides: ''
-url_source: '#'
-url_video: '#'
 
 image:
   caption: 'Image credit: Huiwen Tan'
@@ -37,3 +21,9 @@ projects: []
 
 slides: ""
 ---
+
+# 引言
+
+在温度、光照、压力和磁场等外部扰动下，一些具有八面体分子几何且电子排布为d^4^到d^7^的第一行过渡金属配合物会表现出低自旋(LS)和高自旋(HS)态的交叉。材料的物理性质(如磁性、体积、晶体结构、电导率和颜色)通常伴随着这种自旋交叉(SCO)发生剧烈变化。因此，SCO现象可以通过多种实验技术来表征，包括X射线衍射、量热法、振动光谱技术和磁化率测量。在过去的几十年间，SCO材料因其在用于存储、传感、显示和驱动的纳米级设备中作为分子开关的潜在应用而得到了广泛的研究。这些应用的实现依赖于成功设计和合成可以在环境条件下进行自旋状态切换的SCO化合物。
+
+在实验室中筛选具有所需性质的SCO材料耗时且费力。从量子力学出发的第一性原理可以在不依赖经验参数的情况下建立结构与性质之间的关系，从而为具有所需性质材料的实验设计提供重要见解。虽然以密度泛函理论(DFT)为代表的第一性原理方法可以提供准确的预测，但由于当前的算力限制，它们在扩展到大型系统和长时间尺度时仍然面临挑战。近年来，机器学习(ML)被认为是第一性原理计算的一个有希望的补充，可以加速候选材料的发现。
