@@ -13,7 +13,7 @@ tags:
   - Gaussian
 featured: false
 
-url_poster: '#'
+url_poster: poster.jpg
 
 image:
   caption: 'Image credit: Huiwen Tan'
