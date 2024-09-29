@@ -112,7 +112,7 @@ skills:
 
 ---
 
-欢迎来到我的主页！我目前是昆士兰大学 [the University of Queensland](https://scmb.uq.edu.au/profile/12166/huiwen-tan)化学专业的荣誉学生, 由[Prof. Ben Powell](https://people.smp.uq.edu.au/BenPowell/index.html)和[Dr Carla Verdi](https://smp.uq.edu.au/profile/17070/carla-verdi)指导。 
+欢迎来到我的主页！我目前是[昆士兰大学](https://scmb.uq.edu.au/profile/12166/huiwen-tan)化学专业的荣誉学生, 由[Prof. Ben Powell](https://people.smp.uq.edu.au/BenPowell/index.html)和[Dr Carla Verdi](https://smp.uq.edu.au/profile/17070/carla-verdi)指导。 
 
 我最近的研究围绕强相关材料的第一性原理计算，并结合了机器学习加速的从头算分子动力学模拟，旨在了解凝聚态相中令人着迷的涌现行为。
 
