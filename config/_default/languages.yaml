@@ -30,10 +30,10 @@ zh:
         weight: 10
       - name: 研究
         url: research/
-        weight: 20
+        weight: 25
       - name: 经历
         url: experience/
-        weight: 30
+        weight: 40
       - name: 画廊
         url: gallery/
-        weight: 40
+        weight: 55
