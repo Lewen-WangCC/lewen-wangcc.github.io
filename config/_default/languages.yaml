@@ -13,8 +13,16 @@ zh:
   languageCode: zh-Hans
   contentDir: content/zh
   title: 谈慧文
-#  params:
-#    description: Site description in Chinese...
+  params:
+    header:
+      navbar:
+        enable: true
+        blox: "navbar"
+        fixed_to_top: true
+        show_search: false
+        show_theme_chooser: true
+        logo:
+          text: "谈慧文"
   menu:
     main:
       - name: 关于我
