@@ -12,7 +12,7 @@ sections:
     content:
       title: 2023
       text: |-
-        这张照片拍摄于2023年的11月，当时我们Powell小组的人们在庆祝Dr Nadeem取得他的博士学位 🍻
+        这张照片拍摄于2023年的11月，我们Powell小组为了庆祝Dr Nadeem取得他的博士学位在Saint Lucy聚餐 🍻
         ![powellgroup](powellgroup.jpg)
   - block: markdown
     content:
