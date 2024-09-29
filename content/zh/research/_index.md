@@ -1,4 +1,4 @@
 ---
-title: Research Projects
-view: article-grid
+title: 研究项目
+view: compact
 ---
