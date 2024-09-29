@@ -1,139 +1,28 @@
 ---
-title: Density Functional Theory Study of the Light-Induced Excited Spin-State Trapping Effect in Spin Crossover Materials
-summary: Supervised by Prof. Ben Powell and Dr Muhammad Nadeem
-date: 2022-10-25
+title: "自旋交叉材料中光诱导激发自旋态捕获效应​​的密度泛函理论研究"
+summary: 由Prof. Ben Powell和Dr Muhammad Nadeem指导
 authors:
-  - admin
+- admin
+date: 2022-11-25
+doi: ""
+
+abstract: 利用DFT计算研究了磷烯复合物[Fe(dppen)~2~X~2~]（X=Br和Cl）中的自旋交叉动力学。设计了一种无参数计算方案来模拟与低自旋态和高自旋态相互转换相关的全原子自由能表面和动力学屏障。探究了卤素（X）和溶剂环境（真空、CHCl~3~和CH~2~Cl~2~）对化合物自旋交叉性质的影响。我们对电子态、自旋轨道相互作用和分子振动之​​间的相互作用在确定热和动力学自旋交叉性质方面进行了完整的从头算计算。理论计算重现了实验中观察到的卤素在这些化合物中影响的趋势——与Cl相比，配位层中的Br减缓了光诱导捕获HS态的动力学弛豫并降低了热平衡温度。这是因为Br的LS和HS态之间的能隙较小。此外，我们发现溶剂强烈影响自旋交叉特性，但这种变化并不遵循与能隙的简单关系。
+
 tags:
   - DFT
   - Quantum Chemistry
   - ADF
+featured: false
+
+#url_pdf: http://arxiv.org/pdf/1512.04133v1
+#url_slides: ''
+
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+  caption: 'Image credit: Huiwen Tan'
+  focal_point: ""
+  preview_only: ture
+
+projects: []
+
+slides: ""
 ---
-
-Create a personal knowledge base and share your knowledge with your peers.
-
-Hugo Blox web framework empowers you with one of the most flexible note-taking capabilities out there.
-
-Create a powerful knowledge base that works on top of a local folder of plain text Markdown files.
-
-Use it as your second brain, either publicly sharing your knowledge with your peers via your website, or via a private GitHub repository and password-protected site just for yourself.
-
-## Mindmaps
-
-Hugo Blox supports a Markdown extension for mindmaps.
-
-With this open format, can even edit your mindmaps in other popular tools such as Obsidian.
-
-Simply insert a Markdown code block labelled as `markmap` and optionally set the height of the mindmap as shown in the example below.
-
-Mindmaps can be created by simply writing the items as a Markdown list within the `markmap` code block, indenting each item to create as many sub-levels as you need:
-
-<div class="highlight">
-<pre class="chroma">
-<code>
-```markmap {height="200px"}
-- Hugo Modules
-  - Hugo Blox
-  - blox-plugins-netlify
-  - blox-plugins-netlify-cms
-  - blox-plugins-reveal
-```
-</code>
-</pre>
-</div>
-
-renders as
-
-```markmap {height="200px"}
-- Hugo Modules
-  - Hugo Blox
-  - blox-plugins-netlify
-  - blox-plugins-netlify-cms
-  - blox-plugins-reveal
-```
-
-Anh here's a more advanced mindmap with formatting, code blocks, and math:
-
-<div class="highlight">
-<pre class="chroma">
-<code>
-```markmap
-- Mindmaps
-  - Links
-    - [Hugo Blox Docs](https://docs.hugoblox.com/)
-    - [Discord Community](https://discord.gg/z8wNYzb)
-    - [GitHub](https://github.com/HugoBlox/hugo-blox-builder)
-  - Features
-    - Markdown formatting
-    - **inline** ~~text~~ *styles*
-    - multiline
-      text
-    - `inline code`
-    -
-      ```js
-      console.log('hello');
-      console.log('code block');
-      ```
-    - Math: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
-```
-</code>
-</pre>
-</div>
-
-renders as
-
-```markmap
-- Mindmaps
-  - Links
-    - [Hugo Blox Docs](https://docs.hugoblox.com/)
-    - [Discord Community](https://discord.gg/z8wNYzb)
-    - [GitHub](https://github.com/HugoBlox/hugo-blox-builder)
-  - Features
-    - Markdown formatting
-    - **inline** ~~text~~ *styles*
-    - multiline
-      text
-    - `inline code`
-    -
-      ```js
-      console.log('hello');
-      console.log('code block');
-      ```
-    - Math: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
-```
-
-## Highlighting
-
-<mark>Highlight</mark> important text with `mark`:
-
-```html
-<mark>Highlighted text</mark>
-```
-
-## Callouts
-
-Use [callouts](https://docs.hugoblox.com/reference/markdown/#callouts) (aka _asides_, _hints_, or _alerts_) to draw attention to notes, tips, and warnings.
-
-By wrapping a paragraph in `{{%/* callout note */%}} ... {{%/* /callout */%}}`, it will render as an aside.
-
-```markdown
-{{%/* callout note */%}}
-A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-{{%/* /callout */%}}
-```
-
-renders as
-
-{{% callout note %}}
-A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-{{% /callout %}}
-
-Or use the `warning` callout type so your readers don't miss critical details:
-
-{{% callout warning %}}
-A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-{{% /callout %}}
-
-## Did you find this page helpful? Consider sharing it 🙌
