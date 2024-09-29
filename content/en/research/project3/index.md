@@ -1,6 +1,6 @@
 ---
-title: "Stereoselective Reduction of 5-C-bromo-D-glucuronyl β-fluoride with the Mediation of Tributyltin Hydride - A DFT Investigation"
-summary: Supervised by Prof. Elizabeth Krenske
+title: "由三丁基锡氢化物介导的5-C-溴-D-葡萄糖醛酸 β-氟化物立体选择性还原反应——密度泛函理论研究"
+summary: 由Prof. Elizabeth Krenske指导
 authors:
 - admin
 date: 2022-06-22
@@ -13,17 +13,7 @@ tags:
   - Gaussian
 featured: false
 
-links:
-- name: Custom Link
-  url: http://example.org
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: '#'
 url_poster: '#'
-url_project: ''
-url_slides: ''
-url_source: '#'
-url_video: '#'
 
 image:
   caption: 'Image credit: Huiwen Tan'
