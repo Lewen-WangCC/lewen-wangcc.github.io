@@ -1,20 +1,20 @@
 ---
 # Display name
-title: Huiwen Tan
+title: 谈慧文
 
 # Full name (for SEO)
-first_name: Huiwen
-last_name: Tan
+first_name: 慧文
+last_name: 谈
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Honours Student
+role: 荣誉学生
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: The University of Queensland
+  - name: 昆士兰大学
     url: https://scmb.uq.edu.au/profile/12166/huiwen-tan
 
 # Social network links
@@ -31,49 +31,49 @@ profiles:
     url: https://www.xiaohongshu.com/user/profile/651b83dc000000002302476d
 
 education:
-  - area: Bachelor of Advanced Science (Honours)
-    institution: The University of Queensland
+  - area: 高级理学学士（荣誉学位）
+    institution: 昆士兰大学
     date_start: 2020-02-01
     date_end: 2024-12-01
     summary: |
-      - Major Coursework: Physical Chemistry; Advanced Inorganic Chemistry; Determination of Molecular Structure; Calculus & Linear Algebra I & II; Multivariate Calculus & Ordinary Differential Equations; Quantum Mechanics I; Mathematical Probability
-      - Awards and Honors: Dean’s Commendation for Academic Excellence in Semester 1, 2020; Summer Scholarship for 2022/23 Summer Research Program
+      - 主要课程：物理化学；高级无机化学；分子结构测定；微积分与线性代数I&II；多元微积分与常微分方程；量子力学I；概率与统计
+      - 奖项与荣誉：2020年第一学期学术优秀表现院长嘉奖；2022/23年暑期研究项目奖学金
 
 
 work:
-  - position: Casual Academics
-    company_name: The University of Queensland
+  - position: 教学助理
+    company_name: 昆士兰大学
     company_url: https://www.uq.edu.au/
     company_logo: ''
     date_start: 2024-02-01
     date_end: 2024-12-01
     summary: |
-      - Taught and demonstrated the laboratory sessions of a chemistry course, CHEM1100: Chemistry 1, in Semesters 1 & 2, 2024, supervised 15-20 students
-      - Participated in the assignments and exams marking
-      - Assisted in the school-based in-semester and end-of-semester exams invigilation
-  - position: Administrative Intern
-    company_name: Beijing Genomics Institute
+      - 在2024年的第一和第二学期指导CHEM1100的实验课程，协调与管理15-20名学生的班级
+      - 参与考试与作业的评分
+      - 协助线下考试的监考工作
+  - position: 行政实习生
+    company_name: 华大研究院
     company_url: https://en.genomics.cn/
     company_logo: ''
     date_start: 2021-10-01
     date_end: 2021-12-31
     summary: |
-      - Responsible for the laboratory management of the whole Institute of Biochemistry
-      - Supported the daily operation of the laboratory and administered the procurement of materials
-  - position: Testing Technician
-    company_name: IMPAQ Testing Technology Co., LTD
+      - 负责生化所的实验室管理
+      - 支持实验室的日常运营并督导物料的采购与交付
+  - position: 检测技术员
+    company_name: 英柏检测技术有限公司
     company_url: https://www.impaq-tech.com/en
     company_logo: ''
     date_start: 2021-08-01
     date_end: 2021-10-01
     summary: |
-      - Third-party testing of consumer products such as textiles, clothing and baby products
-      - Responsible for laboratory daily testing, including the determination of pH value, formaldehyde and heavy metal contents of samples
+      - 纺织品、服装和婴儿用品等消费品的第三方检测
+      - 负责实验室日常检测工作，包括样品pH值、甲醛和重金属含量的测定
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Computational Chemistry Software
+  - name: 计算化学软件
     items:
       - name: VASP
         description: ''
@@ -87,7 +87,7 @@ skills:
       - name: Quantum ESPRESSO
         description: ''
         icon: ''
-  - name: Programming Languages
+  - name: 编程语言
     items:
       - name: Python
         description: NumPy, SciPy, Matplotlib, ASE, Phonopy, pymatgen
@@ -112,8 +112,8 @@ skills:
 
 ---
 
-Welcome to my homepage! I am currently an Honours student in Chemistry at [the University of Queensland](https://scmb.uq.edu.au/profile/12166/huiwen-tan), under the supervision of [Prof. Ben Powell](https://people.smp.uq.edu.au/BenPowell/index.html) and [Dr Carla Verdi](https://smp.uq.edu.au/profile/17070/carla-verdi). 
+欢迎来到我的主页！我目前是昆士兰大学 [the University of Queensland](https://scmb.uq.edu.au/profile/12166/huiwen-tan)化学专业的荣誉学生, 由[Prof. Ben Powell](https://people.smp.uq.edu.au/BenPowell/index.html)和[Dr Carla Verdi](https://smp.uq.edu.au/profile/17070/carla-verdi)指导。 
 
-My recent research revolves around first-principles calculations of strongly correlated materials combined with machine learning-accelerated _ab initio_ molecular dynamics simulations, aiming to understand fascinating emergent behaviours in condensed matter phases. 
+我最近的研究围绕强相关材料的第一性原理计算，并结合了机器学习加速的从头算分子动力学模拟，旨在了解凝聚态相中令人着迷的涌现行为。
 
-***I am actively seeking PhD opportunities in theoretical and computational chemistry, with a strong interest in developing new methods for electronic structure theory. Please feel free to contact me via email (h.tan1@student.uq.edu.au).***
+***我正在积极寻找理论与计算化学PhD的机会，对开发电子结构理论的新方法有着浓厚的兴趣。如果你对我感兴趣，请随时通过电子邮件(h.tan1@student.uq.edu.au)与我联系。***
