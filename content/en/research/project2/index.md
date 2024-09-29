@@ -3,7 +3,7 @@ title: "Density Functional Theory Study of the Light-Induced Excited Spin-State 
 summary: Supervised by Prof. Ben Powell and Dr Muhammad Nadeem
 authors:
 - admin
-date: 2022-10-25
+date: 2022-11-25
 doi: ""
 
 publication_types: ["article"]
