@@ -10,7 +10,7 @@ abstract: 利用DFT计算研究了磷烯复合物[Fe(dppen)~2~X~2~]（X=Br和Cl�
 
 tags:
   - DFT
-  - Quantum Chemistry
+  - 量子化学
   - ADF
 featured: false
 
