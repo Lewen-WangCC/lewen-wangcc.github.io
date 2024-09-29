@@ -1,5 +1,5 @@
 ---
-title: 'About Me'
+title: '关于我'
 date: 2024-9-27
 type: landing
 
@@ -16,7 +16,7 @@ sections:
       username: admin
       # Show a call-to-action button under your biography? (optional)
       button:
-        text: Download Résumé
+        text: 下载简历
         url: uploads/resume.pdf
     design:
       banner:

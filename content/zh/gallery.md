@@ -1,5 +1,5 @@
 ---
-title: 'Gallery'
+title: '画廊'
 date: 2024-9-27
 type: landing
 
@@ -12,24 +12,24 @@ sections:
     content:
       title: 2023
       text: |-
-        This photo was taken in November 2023, when our people in the Powell Group celebrated Dr Nadeem's completion of his PhD 🍻
+        这张照片拍摄于2023年的11月，当时我们Powell小组的人们在庆祝Dr Nadeem取得他的博士学位 🍻
         ![powellgroup](powellgroup.jpg)
   - block: markdown
     content:
       title: 2022
       text: |-
-        This is my first poster! It was exciting to tell people about my project, especially when they were interested in my research 😄
+        这是我的第一张学术海报！向大家介绍我的项目非常有意思，尤其是当他们对我的研究表现出兴趣时 😄
         ![poster](poster.jpg)
-        I visited Lone Pine with the Krenske Group in August to see the cute koalas 🐨
+        八月份我和Krenske小组一起去了龙柏考拉保护区，看到了非常可爱的考拉 🐨
         ![krenskegroup](krenskegroup.jpg)
   - block: markdown
     content:
       title: 2021
       text: |-
-        Sports Day during my internship at BGI 🏆
+        我在华大基因实习期间参加的集团运动会 🏆
         ![bgi](bgi.jpg)
-        With colleagues from IMPAQ at the seaside in Shenzhen 🌊
+        和英柏的同事在深圳的海边团建 🌊
         ![impaq](impaq.jpg) 
-        I was working in the lab 👩‍🔬
+        穿实验服工作的我 👩‍🔬
         ![lab](lab.jpg) 
 ---

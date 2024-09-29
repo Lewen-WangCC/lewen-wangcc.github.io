@@ -1,5 +1,5 @@
 ---
-title: 'Experience'
+title: '经历'
 date: 2024-9-27
 type: landing
 
@@ -12,6 +12,7 @@ design:
 sections:
   - block: resume-experience
     content:
+      title: 工作经历
       username: admin
     design:
       # Hugo date format
@@ -20,7 +21,7 @@ sections:
       is_education_first: ture
   - block: resume-skills
     content:
-      title: Skills
+      title: 技能
       username: admin
     design:
       show_skill_percentage: false
