@@ -8,7 +8,7 @@ doi: ""
 
 publication_types: ["article"]
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Spin crossover dynamics in phosphorene complexes [Fe(dppen)~2~X~2~] (X = Br and Cl) is investigated using DFT calculations. A parameter-free computational scheme is devised to model all-atom free energy surfaces and kinetic barriers associated with the low and high spin states interconversions. The influence of halogens (X) and solvent environments (vacuum, CHCl3 and CH2Cl2) on the spin crossover properties of the compounds is explored.  We present full ab initio calculations on the interplay between electronic states, spin-orbit interaction, and molecular vibrations in determining the thermal and kinetic spin crossover properties. Theoretical calculations reproduce the experimentally observed trend on the influence of halogens in these compounds - Br in the coordination sphere slows kinetic relaxations of photo-induced trapped HS state and reduces thermal equilibrium temperature when compared to Cl. This results from a smaller energy gap between LS and HS states for Br. Moreover, we find that the solvents strongly affect the spin crossover properties but the changes do not follow a simple relationship with the energy gap.
 
 tags:
   - DFT
@@ -16,17 +16,8 @@ tags:
   - ADF
 featured: false
 
-links:
-- name: Custom Link
-  url: http://example.org
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: '#'
-url_poster: '#'
-url_project: ''
-url_slides: ''
-url_source: '#'
-url_video: '#'
+#url_pdf: http://arxiv.org/pdf/1512.04133v1
+#url_slides: ''
 
 image:
   caption: 'Image credit: Huiwen Tan'
