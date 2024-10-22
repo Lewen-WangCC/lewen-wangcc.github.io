@@ -14,7 +14,7 @@ tags:
   - VASP
 featured: false
 
-url_pdf: ''
+url_pdf: uploads/HonoursThesis.pdf
 
 image:
   caption: 'Image credit: Huiwen Tan'
