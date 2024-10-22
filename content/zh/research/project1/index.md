@@ -14,7 +14,7 @@ tags:
   - VASP
 featured: false
 
-url_pdf: HonoursThesis.pdf
+url_pdf: uploads/HonoursThesis.pdf
 
 image:
   caption: 'Image credit: Huiwen Tan'
@@ -24,4 +24,10 @@ image:
 projects: []
 
 slides: ""
+---
+
+##### Download
+
++ [荣誉毕业论文](HonoursThesis.pdf)
+
 ---
