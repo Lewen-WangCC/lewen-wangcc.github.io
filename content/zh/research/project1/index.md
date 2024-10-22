@@ -1,5 +1,5 @@
 ---
-title: "用机器学习力场建模自旋交叉晶格"
+title: "机器学习力场建模自旋交叉晶格"
 summary: 由Prof. Ben Powell和Dr Carla Verdi指导
 authors:
 - admin
