@@ -25,3 +25,11 @@ projects: []
 
 slides: ""
 ---
+
+---
+
+##### Download
+
++ [Honours Thesis](HonoursThesis.pdf)
+
+---
