@@ -26,7 +26,7 @@ projects: []
 slides: ""
 ---
 
-##### Download
+##### 下载
 
 + [荣誉毕业论文](HonoursThesis.pdf)
 
