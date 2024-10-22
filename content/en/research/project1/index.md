@@ -1,16 +1,20 @@
 ---
-title: "Development of On-the-Fly Machine Learning Force Fields for Spin Crossover Materials (In Progress)"
+title: "Modelling Spin-Crossover Lattices with Machine-Learned Force Fields"
 summary: Supervised by Prof. Ben Powell and Dr Carla Verdi
 authors:
 - admin
 date: 2024-01-29
 doi: ""
 
+abstract: Machine learning force fields (MLFF) have received increasing attention recently due to their ability to describe interatomic potentials with quantum-level accuracy while scaling to classical systems. The accuracy of the machine-learned potentials highly depends on the choice of the underlying _ab initio_ reference method. However, modelling spin-crossover (SCO) lattices using density functional theory (DFT) still presents difficulties, especially in balancing accuracy and efficiency when predicting the energy difference between the high- and low-spin states at 0 K, known as the enthalpy difference. In this thesis, a semi-empirical DFT method was employed to train MLFFs for [Fe(ptz)~6~](BF~4~)~2~ (ptz = 1-propyltetrazole) on the fly during molecular dynamics (MD) simulations. The developed MLFFs achieved DFT-level accuracy with high efficiency across a series of benchmarks and successfully predicted the thermal expansion effect of the SCO system using quasi-harmonic approximations. This study provides key insight into modelling SCO with DFT, highlighting the critical role of zero-point effects in the enthalpy difference calculation. Combining a reliable DFT reference with MLFF provides a promising strategy for accurately and efficiently simulating the lattice dynamics of SCO systems. Additionally, a potential scheme for MLFF-driven MD simulations was proposed.
+
 tags:
   - ML
   - AIMD
   - VASP
 featured: false
+
+url_pdf: Honours_Thesis.pdf
 
 image:
   caption: 'Image credit: Huiwen Tan'
@@ -21,8 +25,3 @@ projects: []
 
 slides: ""
 ---
-# Introduction
-
-Some first-row transition metal complexes with d^4^ to d^7^ electronic configurations in octahedral molecular geometries exhibit a crossover between low-spin (LS) and high-spin (HS) states under external perturbations such as temperature, light irradiation, pressure, and magnetic field. Dramatic variations in the physical properties of materials, like magnetism, volume, crystal structure, conductivity, and colour, usually accompany such spin crossover (SCO). Consequently, the SCO phenomenon can be characterised by various experimental techniques, including X-ray diffraction, calorimetry, vibrational spectroscopy, and magnetic susceptibility measurements. SCO materials have been extensively studied over recent decades because of their potential applications as molecular switches in nanoscale devices for memory, sensing, display, and actuation. The realisation of these applications relies on the successful design and synthesis of SCO compounds that can undergo spin-state switching under ambient conditions.
-
-Screening SCO materials with desired properties in the laboratory is labour-intensive and time-consuming. First principles, starting from quantum mechanics, can establish the relationship between structure and properties without relying on empirical parameters, thus providing crucial insights into the experimental design of materials with desired properties. Whilst first-principle methods, represented by density functional theory (DFT), can offer accurate predictions, they still face challenges in scaling up to large systems and long timescales owing to current computational limitations. In recent years, machine learning (ML) has been reported as a promising complement to first-principles calculations for accelerating the discovery of candidate materials.
