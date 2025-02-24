@@ -14,7 +14,7 @@ tags:
   - VASP
 featured: false
 
-url_pdf: ''
+url_pdf: uploads/thesis.pdf
 
 image:
   caption: 'Image credit: Huiwen Tan'
@@ -24,4 +24,9 @@ image:
 projects: []
 
 slides: ""
+---
+
+---
+##### 下载
++ [荣誉学位论文](thesis.pdf)
 ---

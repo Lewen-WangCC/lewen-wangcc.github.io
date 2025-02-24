@@ -10,12 +10,12 @@ last_name: 谈
 superuser: true
 
 # Role/position/tagline
-role: 荣誉学生
+role: 即将入学的博士生
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: 昆士兰大学
-    url: https://scmb.uq.edu.au/profile/12166/huiwen-tan
+  - name: 香港中文大学
+    url: https://www.cuhk.edu.hk/chinese/index.html
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -31,10 +31,10 @@ profiles:
     url: https://www.xiaohongshu.com/user/profile/651b83dc000000002302476d
 
 education:
-  - area: 高级理学学士（荣誉学位）
+  - area: 高级理学学士（一等荣誉学位）
     institution: 昆士兰大学
     date_start: 2020-02-01
-    date_end: 2024-12-01
+    date_end: 2024-12-13
     summary: |
       - 主要课程：物理化学；高级无机化学；分子结构测定；微积分与线性代数I&II；多元微积分与常微分方程；量子力学I；概率与统计
       - 奖项与荣誉：2020年第一学期学术优秀表现院长嘉奖；2022/23年暑期研究项目奖学金
@@ -112,8 +112,6 @@ skills:
 
 ---
 
-欢迎来到我的主页！我目前是[昆士兰大学](https://scmb.uq.edu.au/profile/12166/huiwen-tan)化学专业的荣誉学生, 由[Prof. Ben Powell](https://people.smp.uq.edu.au/BenPowell/index.html)和[Dr Carla Verdi](https://smp.uq.edu.au/profile/17070/carla-verdi)指导。 
+欢迎来到我的主页！我是[香港中文大学化学系](https://chem.cuhk.edu.hk/)即将入学的博士生。在此之前，我在[昆士兰大学](https://scmb.uq.edu.au/profile/12166/huiwen-tan)取得了高级科学学士一等荣誉学位, 由[Prof. Ben Powell](https://people.smp.uq.edu.au/BenPowell/index.html)和[Dr Carla Verdi](https://sites.google.com/view/carla-verdi/home)指导。
 
-我最近的研究围绕强相关材料的第一性原理计算，并结合了机器学习加速的从头算分子动力学模拟，旨在了解凝聚态相中令人着迷的涌现行为。
-
-***我正在积极寻找理论与计算化学PhD的机会，对开发电子结构理论的新方法有着浓厚的热情。如果你对我感兴趣，请随时通过电子邮件(h.tan1@student.uq.edu.au)与我联系。***
+我本科的研究围绕强相关材料的第一性原理计算，并结合了机器学习加速的从头算分子动力学模拟，旨在了解凝聚态相中令人着迷的涌现行为。
