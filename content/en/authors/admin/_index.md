@@ -10,18 +10,18 @@ last_name: Tan
 superuser: true
 
 # Role/position/tagline
-role: Honours Student
+role: Incoming Ph.D. Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: The University of Queensland
-    url: https://scmb.uq.edu.au/profile/12166/huiwen-tan
+  - name: The Chinese University of Hong Kong
+    url: https://www.cuhk.edu.hk/english/index.html
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:h.tan1@student.uq.edu.au'
+    url: 'mailto:huiwen.tan25@outlook.com'
     label: E-mail Me
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/huiwen-tan-4aa8901b2/
@@ -31,13 +31,13 @@ profiles:
     url: https://www.xiaohongshu.com/user/profile/651b83dc000000002302476d
 
 education:
-  - area: Bachelor of Advanced Science (Honours)
+  - area: Bachelor of Advanced Science with Class I Honours
     institution: The University of Queensland
     date_start: 2020-02-01
-    date_end: 2024-12-01
+    date_end: 2024-12-13
     summary: |
       - Major Coursework: Physical Chemistry; Advanced Inorganic Chemistry; Determination of Molecular Structure; Calculus & Linear Algebra I & II; Multivariate Calculus & Ordinary Differential Equations; Quantum Mechanics I; Mathematical Probability
-      - Awards and Honors: Dean’s Commendation for Academic Excellence in Semester 1, 2020; Summer Scholarship for 2022/23 Summer Research Program
+      - Awards and Honours: Dean’s Commendation for Academic Excellence in Semester 1, 2020 and Semester 2, 2024; Summer Scholarship for 2022/23 Summer Research Program
 
 
 work:
@@ -112,8 +112,6 @@ skills:
 
 ---
 
-Welcome to my homepage! I am currently an Honours student in Chemistry at [the University of Queensland](https://scmb.uq.edu.au/profile/12166/huiwen-tan), under the supervision of [Prof. Ben Powell](https://people.smp.uq.edu.au/BenPowell/index.html) and [Dr Carla Verdi](https://smp.uq.edu.au/profile/17070/carla-verdi). 
+Welcome to my homepage! I am an incoming Ph.D. student in [the Department of Chemistry, The Chinese University of Hong Kong](https://chem.cuhk.edu.hk/). Prior to this, I obtained my Bachelor of Advanced Science with First-Class Honours at [the University of Queensland](https://scmb.uq.edu.au/profile/12166/huiwen-tan), under the supervision of [Prof. Ben Powell](https://people.smp.uq.edu.au/BenPowell/index.html) and [Dr Carla Verdi](https://sites.google.com/view/carla-verdi/home). 
 
-My recent research revolves around first-principles calculations of strongly correlated materials combined with machine learning-accelerated _ab initio_ molecular dynamics simulations, aiming to understand fascinating emergent behaviours in condensed matter phases. 
-
-***I am actively seeking PhD opportunities in theoretical and computational chemistry, with a strong interest in developing new methods for electronic structure theory. Please feel free to contact me via email (h.tan1@student.uq.edu.au).***
+My undergraduate research revolved around first-principles calculations of strongly correlated materials combined with machine learning-accelerated _ab initio_ molecular dynamics simulations, aiming to understand fascinating emergent behaviours in condensed matter phases. 
