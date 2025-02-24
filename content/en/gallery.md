@@ -12,7 +12,7 @@ sections:
     content:
       title: 2023
       text: |-
-        This photo was taken in November 2023, when our people in the Powell Group celebrated Dr Nadeem's completion of his PhD 🍻
+        This photo was taken in November 2023, when our people in the Powell Group celebrated Dr Nadeem Natt's completion of his PhD 🍻
         ![powellgroup](powellgroup.jpg)
   - block: markdown
     content:

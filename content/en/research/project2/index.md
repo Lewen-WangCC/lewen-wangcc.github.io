@@ -1,6 +1,6 @@
 ---
 title: "Density Functional Theory Study of the Light-Induced Excited Spin-State Trapping Effect in Spin Crossover Materials"
-summary: Supervised by Prof. Ben Powell and Dr Muhammad Nadeem
+summary: Supervised by Prof. Ben Powell and Dr Nadeem Natt
 authors:
 - admin
 date: 2022-11-25

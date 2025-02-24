@@ -1,6 +1,6 @@
 ---
 title: "自旋交叉材料中光诱导激发自旋态捕获效应​​的密度泛函理论研究"
-summary: 由Prof. Ben Powell和Dr Muhammad Nadeem指导
+summary: 由Prof. Ben Powell和Dr Nadeem Natt指导
 authors:
 - admin
 date: 2022-11-25
