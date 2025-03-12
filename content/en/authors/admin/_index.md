@@ -112,6 +112,8 @@ skills:
 
 ---
 
-Welcome to my homepage! I am an incoming Ph.D. student in [the Department of Chemistry, The Chinese University of Hong Kong](https://chem.cuhk.edu.hk/). My Ph.D. advisor is [Dr. Xinglong Zhang](https://xinglong-zhang.github.io/index.html). 
+Welcome to my homepage! I am an incoming Ph.D. student in [the Department of Chemistry, The Chinese University of Hong Kong](https://chem.cuhk.edu.hk/), advised by [Dr. Xinglong Zhang](https://xinglong-zhang.github.io/index.html). Currently, our research focuses on developing computational chemistry tools to automate workflows and accelerate chemical discovery.
 
-Prior to this, I obtained my Bachelor of Advanced Science with First-Class Honours at [the University of Queensland](https://scmb.uq.edu.au/profile/12166/huiwen-tan), under the supervision of [Prof. Ben Powell](https://people.smp.uq.edu.au/BenPowell/index.html) and [Dr Carla Verdi](https://sites.google.com/view/carla-verdi/home). My undergraduate research revolved around first-principles calculations of strongly correlated materials combined with machine learning-accelerated _ab initio_ molecular dynamics simulations, aiming to understand fascinating emergent behaviours in condensed matter phases. 
+Prior to this, I obtained my Bachelor of Advanced Science with First-Class Honours at [the University of Queensland](https://scmb.uq.edu.au/profile/12166/huiwen-tan), under the supervision of [Prof. Ben Powell](https://people.smp.uq.edu.au/BenPowell/index.html) and [Dr Carla Verdi](https://sites.google.com/view/carla-verdi/home). 
+
+My undergraduate research revolved around first-principles calculations of strongly correlated materials combined with machine learning-accelerated _ab initio_ molecular dynamics simulations, aiming to understand fascinating emergent behaviours in condensed matter phases. 
