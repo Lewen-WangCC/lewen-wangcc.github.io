@@ -27,12 +27,13 @@ profiles:
     url: https://www.linkedin.com/in/huiwen-tan-4aa8901b2/
   - icon: custom/Red
     url: https://www.xiaohongshu.com/user/profile/651b83dc000000002302476d
-  - icon: brands/orcid
-    url: https://orcid.org/0009-0003-9663-7689
-  - icon: brands/github
-    url: https://github.com/Huiwen-Tan
   - icon: brands/instagram
     url: https://www.instagram.com/camilleethw
+  - icon: brands/github
+    url: https://github.com/Huiwen-Tan
+  - icon: brands/orcid
+    url: https://orcid.org/0009-0003-9663-7689
+
 
 education:
   - area: Bachelor of Advanced Science with Class I Honours
