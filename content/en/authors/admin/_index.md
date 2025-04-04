@@ -29,6 +29,8 @@ profiles:
     url: https://www.instagram.com/camilleethw
   - icon: custom/Red
     url: https://www.xiaohongshu.com/user/profile/651b83dc000000002302476d
+  - icon: brands/github
+    url: https://github.com/Huiwen-Tan
 
 education:
   - area: Bachelor of Advanced Science with Class I Honours
