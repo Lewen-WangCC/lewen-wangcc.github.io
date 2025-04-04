@@ -17,6 +17,8 @@ featured: false
 #url_pdf: http://arxiv.org/pdf/1512.04133v1
 #url_slides: ''
 
+url_pdf: uploads/Report_Draft.pdf
+
 image:
   caption: 'Image credit: Huiwen Tan'
   focal_point: ""
