@@ -26,3 +26,9 @@ projects: []
 
 slides: ""
 ---
+
+---
+##### 下载
++ [手稿](Report_Draft.pdf)
++ [支持信息](SI.pdf)
+---
