@@ -31,6 +31,6 @@ slides: ""
 
 ---
 ##### Download
-+ [Report Draft](Report_Draft.pdf)
++ [Manuscript](Report_Draft.pdf)
 + [Supporting information](SI.pdf)
 ---
