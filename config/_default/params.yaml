@@ -13,9 +13,9 @@ marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo résumé theme powered by Hugo Blox Builder.'
-    twitter: 'GetResearchDev'
+    org_name: 'The Chinese University of Hong Kong'
+    description: 'Academic site of Huiwen Tan on computational and theoretical chemistry.'
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -32,7 +32,7 @@ header:
     enable: true
     blox: "navbar"
     fixed_to_top: true
-    show_search: false
+    show_search: true
     show_theme_chooser: true
     logo:
       text: "Huiwen Tan"
@@ -40,12 +40,12 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: ''
+    notice: '© 2025 Huiwen Tan'
     license:
-      enable: false
-      allow_derivatives: false
-      share_alike: false
-      allow_commercial: false
+      enable: true
+      allow_derivatives: true
+      share_alike: true
+      allow_commercial: true
 
 # Localization
 locale:
@@ -55,6 +55,6 @@ locale:
 # Site features
 features:
   math:
-    enable: false
+    enable: true
   privacy_pack:
     enable: false
