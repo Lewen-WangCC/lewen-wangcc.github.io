@@ -63,7 +63,7 @@ sections:
             
             - title: "Revealing the activity of Co<sub>3</sub>Mo<sub>3</sub>N and Co<sub>3</sub>Mo<sub>3</sub>N<sub>0.5</sub> as electrocatalysts for the hydrogen evolution reaction"
               subtitle: "J. Mater. Chem. A, 2022,10, 855-861"
-              text: "Youyi Sun, **Lewen Wang**, Olga Guselnikova, Oleg Semyonov, James Fraser, Yecheng Zhou, Núria López, Alexey Y Ganin"
+              text: "Youyi Sun, **Lewen Wang**, Olga Guselnikova, Oleg Semyonov, James Fraser, Yecheng Zhou*, Núria López, Alexey Y Ganin*"
               image: /media/publication/2022/D1TA08389A.png
               link: https://doi.org/10.1039/D1TA08389A
 
