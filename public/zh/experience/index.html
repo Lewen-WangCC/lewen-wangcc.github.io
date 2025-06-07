@@ -1,6 +1,6 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: 2025年6月6日 --><html lang="zh-Hans" dir="ltr"
+<!-- Last Published: 2025年6月7日 --><html lang="zh-Hans" dir="ltr"
       data-wc-theme-default="system">
   
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
@@ -34,7 +34,7 @@
   
   
 
-  <meta name="author" content="谈慧文" />
+  <meta name="author" content="王乐文" />
 
   
   
@@ -123,7 +123,7 @@
 
 
 
-<meta name="google-site-verification" content="B7g6nS0F-AgkC-FvNfGSSCiG6WmZn6_HDI6Kw-51trA" />
+<meta name="google-site-verification" content="OsBBSuNlUCAThlPHszjlp0Mahpfmy6LBlHiVgf6jt-w" />
 
 
 
@@ -482,6 +482,62 @@
 
 
 
+<link type="text/css" rel="stylesheet" href="/dist/pagefind/pagefind-ui.be766eb419317a14ec769d216e9779bfe8f3737c80e780f4ba0dafb57a41a482.css" integrity="sha256-vnZutBkxehTsdp0hbpd5v&#43;jzc3yA54D0ug2vtXpBpII=" />
+
+
+<script src="/dist/pagefind/pagefind-ui.87693d7c6f2b3b347ce359d0ede762c033419f0a32b22ce508c335a81d841f1b.js" integrity="sha256-h2k9fG8rOzR841nQ7ediwDNBnwoysizlCMM1qB2EHxs="></script>
+
+
+<script>window.hbb.pagefind = {"baseUrl":"/"};</script>
+
+<style>
+  html.dark {
+    --pagefind-ui-primary: #eeeeee;
+    --pagefind-ui-text: #eeeeee;
+    --pagefind-ui-background: #152028;
+    --pagefind-ui-border: #152028;
+    --pagefind-ui-tag: #152028;
+  }
+</style>
+
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+    new PagefindUI({
+      element: "#search",
+      showSubResults: true,
+      baseUrl: window.hbb.pagefind.baseUrl,
+      bundlePath: window.hbb.pagefind.baseUrl + "pagefind/",
+    });
+  });
+  document.addEventListener('DOMContentLoaded', () => {
+    let element = document.getElementById('search');
+    let trigger = document.getElementById('search_toggle');
+
+    if (trigger) {
+      trigger.addEventListener('click', () => {
+        element.classList.toggle('hidden');
+        element.querySelector("input").value = ""
+        element.querySelector("input").focus()
+
+        if (!element.classList.contains('hidden')) {
+          let clear_trigger = document.querySelector('.pagefind-ui__search-clear');
+
+          if (clear_trigger && !clear_trigger.hasAttribute('listenerOnClick')) {
+            clear_trigger.setAttribute('listenerOnClick', 'true');
+
+            clear_trigger.addEventListener('click', () => {
+              element.classList.toggle('hidden');
+            });
+          }
+        }
+
+      });
+    }
+  });
+</script>
+
+
+
 
 
 
@@ -763,6 +819,13 @@
       
       
       
+      <button
+        aria-label="search"
+        class="text-black hover:text-primary  inline-block px-3 text-xl dark:text-white"
+        id="search_toggle">
+        <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512" fill="currentColor"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+      </button>
+      
 
       
       
@@ -830,6 +893,8 @@
   </nav>
 </header>
 
+
+<div id="search" class="hidden p-3"></div>
 
 
         
@@ -965,74 +1030,23 @@
         <span class="absolute flex items-center justify-center w-6 h-6 bg-primary-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900">
             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="w-5 h-5 text-primary-800 dark:text-primary-300"><path d="M216,56H176V48a24,24,0,0,0-24-24H104A24,24,0,0,0,80,48v8H40A16,16,0,0,0,24,72V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V72A16,16,0,0,0,216,56ZM96,48a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96ZM216,72v41.61A184,184,0,0,1,128,136a184.07,184.07,0,0,1-88-22.38V72Zm0,128H40V131.64A200.19,200.19,0,0,0,128,152a200.25,200.25,0,0,0,88-20.37V200ZM104,112a8,8,0,0,1,8-8h32a8,8,0,0,1,0,16H112A8,8,0,0,1,104,112Z"></path></svg>
         </span>
-      <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white text-wrap">教学助理
+      <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white text-wrap">测试工程师
         
       </h3>
-      <span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">昆士兰大学</span>
+      <span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">普联技术有限公司</span>
       <time class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
         
-          二月 2024 –
+          九月 2022 –
         
         
-          十二月 2024
+          三月 2024
         
       </time>
       <div class="mb-4 text-base font-normal text-gray-500 dark:text-gray-300 text-wrap prose prose-slate dark:prose-invert"><ul>
-<li>在2024年的第一和第二学期指导CHEM1100的实验课程，协调与管理15-20名学生的班级</li>
-<li>参与考试与作业的评分</li>
-<li>协助线下考试的监考工作</li>
-</ul>
-</div>
-
-      
-
-    </li>
-    
-    <li class="mb-10 ms-6">
-        <span class="absolute flex items-center justify-center w-6 h-6 bg-primary-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="w-5 h-5 text-primary-800 dark:text-primary-300"><path d="M216,56H176V48a24,24,0,0,0-24-24H104A24,24,0,0,0,80,48v8H40A16,16,0,0,0,24,72V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V72A16,16,0,0,0,216,56ZM96,48a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96ZM216,72v41.61A184,184,0,0,1,128,136a184.07,184.07,0,0,1-88-22.38V72Zm0,128H40V131.64A200.19,200.19,0,0,0,128,152a200.25,200.25,0,0,0,88-20.37V200ZM104,112a8,8,0,0,1,8-8h32a8,8,0,0,1,0,16H112A8,8,0,0,1,104,112Z"></path></svg>
-        </span>
-      <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white text-wrap">行政实习生
-        
-      </h3>
-      <span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">华大研究院</span>
-      <time class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
-        
-          十月 2021 –
-        
-        
-          十二月 2021
-        
-      </time>
-      <div class="mb-4 text-base font-normal text-gray-500 dark:text-gray-300 text-wrap prose prose-slate dark:prose-invert"><ul>
-<li>负责生化所的实验室管理</li>
-<li>支持实验室的日常运营并督导物料的采购与交付</li>
-</ul>
-</div>
-
-      
-
-    </li>
-    
-    <li class="mb-10 ms-6">
-        <span class="absolute flex items-center justify-center w-6 h-6 bg-primary-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="w-5 h-5 text-primary-800 dark:text-primary-300"><path d="M216,56H176V48a24,24,0,0,0-24-24H104A24,24,0,0,0,80,48v8H40A16,16,0,0,0,24,72V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V72A16,16,0,0,0,216,56ZM96,48a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96ZM216,72v41.61A184,184,0,0,1,128,136a184.07,184.07,0,0,1-88-22.38V72Zm0,128H40V131.64A200.19,200.19,0,0,0,128,152a200.25,200.25,0,0,0,88-20.37V200ZM104,112a8,8,0,0,1,8-8h32a8,8,0,0,1,0,16H112A8,8,0,0,1,104,112Z"></path></svg>
-        </span>
-      <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white text-wrap">检测技术员
-        
-      </h3>
-      <span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">英柏检测技术有限公司</span>
-      <time class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
-        
-          八月 2021 –
-        
-        
-          十月 2021
-        
-      </time>
-      <div class="mb-4 text-base font-normal text-gray-500 dark:text-gray-300 text-wrap prose prose-slate dark:prose-invert"><ul>
-<li>纺织品、服装和婴儿用品等消费品的第三方检测</li>
-<li>负责实验室日常检测工作，包括样品pH值、甲醛和重金属含量的测定</li>
+<li>作为测试负责人统筹新机型（如 TL-NR1200W-SD 1.0 和 TL-R470E-SD 1.0）的系统级软硬件测试工作。</li>
+<li>基于 Pytest 开发了 SD-WAN 功能及接口汇聚功能的自动化测试框架，集成了基于 Docker 的虚拟拓扑、接口脚本与断言逻辑。</li>
+<li>深度参与了多个机型的SD-WAN 1.0/2.0、网络映射、商用云对接、DHCP、IPv6 等多项功能的测试工作。</li>
+<li>利用 Docker 部署 Nginx 服务器构建虚拟测试环境，用于模拟不同内部网络场景以满足特定测试需求。</li>
 </ul>
 </div>
 
@@ -1054,21 +1068,49 @@
             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="w-5 h-5 text-primary-800 dark:text-primary-300"><path d="M251.76,88.94l-120-64a8,8,0,0,0-7.52,0l-120,64a8,8,0,0,0,0,14.12L32,117.87v48.42a15.91,15.91,0,0,0,4.06,10.65C49.16,191.53,78.51,216,128,216a130,130,0,0,0,48-8.76V240a8,8,0,0,0,16,0V199.51a115.63,115.63,0,0,0,27.94-22.57A15.91,15.91,0,0,0,224,166.29V117.87l27.76-14.81a8,8,0,0,0,0-14.12ZM128,200c-43.27,0-68.72-21.14-80-33.71V126.4l76.24,40.66a8,8,0,0,0,7.52,0L176,143.47v46.34C163.4,195.69,147.52,200,128,200Zm80-33.75a97.83,97.83,0,0,1-16,14.25V134.93l16-8.53ZM188,118.94l-.22-.13-56-29.87a8,8,0,0,0-7.52,14.12L171,128l-43,22.93L25,96,128,41.07,231,96Z"></path></svg>
             </svg>
         </span>
-        <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">高级理学学士（一等荣誉学位）
+        <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">工程硕士（材料与化工）
 
         </h3>
-        <span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">昆士兰大学</span>
+        <span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">中山大学</span>
         <time class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
           
-            二月 2020 –
+            九月 2020 –
           
           
-            十二月 2024
+            六月 2022
           
         </time>
         <div class="mb-4 text-base font-normal text-gray-500 dark:text-gray-300 prose prose-slate dark:prose-invert"><ul>
-<li>主要课程：物理化学；高级无机化学；分子结构测定；微积分与线性代数I&amp;II；多元微积分与常微分方程；量子力学I；概率与统计</li>
-<li>奖项与荣誉：2020年第一学期和2024年第二学期学术优秀表现院长嘉奖；2022/23年暑期研究项目奖学金</li>
+<li>主修课程: 高分子材料与工程; 材料分析与表征技术; 材料制备技术; 能源材料与器件实践</li>
+<li>研究方向: 有机半导体材料计算</li>
+<li>奖项与荣誉: 2020, 2021研究生三等奖学金</li>
+</ul>
+</div>
+
+        
+
+      </li>
+      
+      <li class="mb-10 ms-6">
+        <span class="absolute flex items-center justify-center w-6 h-6 bg-primary-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="w-5 h-5 text-primary-800 dark:text-primary-300"><path d="M251.76,88.94l-120-64a8,8,0,0,0-7.52,0l-120,64a8,8,0,0,0,0,14.12L32,117.87v48.42a15.91,15.91,0,0,0,4.06,10.65C49.16,191.53,78.51,216,128,216a130,130,0,0,0,48-8.76V240a8,8,0,0,0,16,0V199.51a115.63,115.63,0,0,0,27.94-22.57A15.91,15.91,0,0,0,224,166.29V117.87l27.76-14.81a8,8,0,0,0,0-14.12ZM128,200c-43.27,0-68.72-21.14-80-33.71V126.4l76.24,40.66a8,8,0,0,0,7.52,0L176,143.47v46.34C163.4,195.69,147.52,200,128,200Zm80-33.75a97.83,97.83,0,0,1-16,14.25V134.93l16-8.53ZM188,118.94l-.22-.13-56-29.87a8,8,0,0,0-7.52,14.12L171,128l-43,22.93L25,96,128,41.07,231,96Z"></path></svg>
+            </svg>
+        </span>
+        <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">工程学士（高分子材料与工程）
+
+        </h3>
+        <span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">北京化工大学</span>
+        <time class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+          
+            九月 2016 –
+          
+          
+            六月 2020
+          
+        </time>
+        <div class="mb-4 text-base font-normal text-gray-500 dark:text-gray-300 prose prose-slate dark:prose-invert"><ul>
+<li>主修课程: 物理化学; 高分子材料; 高分子化学; 高分子物理; 高等数学; 线性代数; 概率论</li>
+<li>奖项与荣誉: 2019三等人民奖学金</li>
 </ul>
 </div>
 
@@ -1230,23 +1272,6 @@
       
 
       <span class="skills-name text-gray-700 dark:text-gray-300">
-        VASP
-        
-      </span>
-      
-    </div>
-    
-    
-    
-    
-    
-    
-
-    <div class="skills-content">
-
-      
-
-      <span class="skills-name text-gray-700 dark:text-gray-300">
         Gaussian
         
       </span>
@@ -1264,24 +1289,7 @@
       
 
       <span class="skills-name text-gray-700 dark:text-gray-300">
-        ADF
-        
-      </span>
-      
-    </div>
-    
-    
-    
-    
-    
-    
-
-    <div class="skills-content">
-
-      
-
-      <span class="skills-name text-gray-700 dark:text-gray-300">
-        Quantum ESPRESSO
+        GROMACS
         
       </span>
       
@@ -1313,7 +1321,7 @@
 
       <span class="skills-name text-gray-700 dark:text-gray-300">
         Python
-        <p class="skills-description">NumPy, SciPy, Matplotlib, ASE, Phonopy, pymatgen</p>
+        <p class="skills-description">NumPy, Sk-learn, Pytest, Tensorflow</p>
       </span>
       
     </div>
@@ -1366,7 +1374,7 @@
   
   <div class="w-full lg:w-1/2">
     <div class="mb-5 text-xl font-bold text-gray-900 dark:text-white">
-      
+      其它
       
     </div>
     
@@ -1380,12 +1388,12 @@
 
       
       <span class="skills-icon inline-block">
-        <svg style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><path fill="#75aadb" d="M71.4 38.8c-1.5-.6-3.9-1-6.9-1.1c-4.2-.1-9 .4-9.2.5v20c13.3.6 15.5-1.7 15.5-1.7c11.6-5.9 4.3-16.2.6-17.7"/><path fill="#75aadb" d="M64 0C28.6 0 0 28.6 0 64s28.6 64 64 64s64-28.6 64-64S99.3 0 64 0m28.6 89.8H82L64.4 63.5h-9V84h9v5.8H41.5v-5.7l7.6-.1l-.1-45.9c-.8-.2-7.5-.8-7.5-.8V32c1 1 7.9 1.2 7.9 1.2c1.6.1 3.9.2 5.2-.1c9.3-1.7 16.4-.4 16.4-.4c14 3.2 14.2 15.8 10.3 22.6c-3.5 5.8-10.3 7.2-10.3 7.2l14.4 21.8l7.2-.1z"/><path fill="#fff" stroke="#fff" stroke-width=".788" d="M41.595 87.073v-2.726l1.82-.141a59.125 59.125 0 0 1 3.752-.144h1.931V37.996l-.938-.127a151.34 151.34 0 0 0-3.752-.397l-2.813-.27v-2.51c0-2.332.027-2.495.39-2.3c1.583.847 10.7 1.07 15.83.388c4.202-.558 11.495-.425 14.035.257c5.483 1.472 9.11 4.646 10.824 9.473c.717 2.018.817 5.847.216 8.224c-.903 3.572-2.39 6.048-4.865 8.101c-1.482 1.23-4.847 3.03-6.145 3.29c-.397.079-.772.224-.832.321c-.06.098 3.123 5.072 7.075 11.054l7.184 10.876l3.633-.068l3.634-.068v5.56l-5.242-.008l-5.24-.007l-8.82-13.234l-8.817-13.234h-9.178v20.744h9.049V89.8H41.595zm25.158-29.162c3.476-.55 7.265-2.774 8.973-5.263c2.511-3.663 1.537-8.99-2.294-12.547c-1.357-1.26-2.205-1.63-4.794-2.1c-2.124-.386-8.66-.454-11.706-.122l-1.544.168l-.058 10.083l-.057 10.082l.72.106c1.366.2 8.67-.075 10.76-.407z"/></svg>
+        <svg style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><path fill="#3A4D54" fill-rule="evenodd" d="M73.8 50.8h11.3v11.5h5.7c2.6 0 5.3-.5 7.8-1.3c1.2-.4 2.6-1 3.8-1.7c-1.6-2.1-2.4-4.7-2.6-7.3c-.3-3.5.4-8.1 2.8-10.8l1.2-1.4l1.4 1.1c3.6 2.9 6.5 6.8 7.1 11.4c4.3-1.3 9.3-1 13.1 1.2l1.5.9l-.8 1.6c-3.2 6.2-9.9 8.2-16.4 7.8c-9.8 24.3-31 35.8-56.8 35.8c-13.3 0-25.5-5-32.5-16.8l-.1-.2l-1-2.1c-2.4-5.2-3.1-10.9-2.6-16.6l.2-1.7h9.6V50.8h11.3V39.6h22.5V28.3h13.5z" clip-rule="evenodd"/><path fill="#00AADA" d="M110.4 55.1c.8-5.9-3.6-10.5-6.4-12.7c-3.1 3.6-3.6 13.2 1.3 17.2c-2.8 2.4-8.5 4.7-14.5 4.7H18.6c-.6 6.2.5 11.9 3 16.8l.8 1.5c.5.9 1.1 1.7 1.7 2.6c3 .2 5.7.3 8.2.2c4.9-.1 8.9-.7 12-1.7c.5-.2.9.1 1.1.5c.2.5-.1.9-.5 1.1c-.4.1-.8.3-1.3.4c-2.4.7-5 1.1-8.3 1.3h-.6c-1.3.1-2.7.1-4.2.1c-1.6 0-3.1 0-4.9-.1c6 6.8 15.4 10.8 27.2 10.8c25 0 46.2-11.1 55.5-35.9c6.7.7 13.1-1 16-6.7c-4.5-2.7-10.5-1.8-13.9-.1"/><path fill="#28B8EB" d="M110.4 55.1c.8-5.9-3.6-10.5-6.4-12.7c-3.1 3.6-3.6 13.2 1.3 17.2c-2.8 2.4-8.5 4.7-14.5 4.7h-68c-.3 9.5 3.2 16.7 9.5 21c4.9-.1 8.9-.7 12-1.7c.5-.2.9.1 1.1.5c.2.5-.1.9-.5 1.1c-.4.1-.8.3-1.3.4c-2.4.7-5.2 1.2-8.5 1.4l-.1-.1c8.5 4.4 20.8 4.3 35-1.1c15.8-6.1 30.6-17.7 40.9-30.9c-.2.1-.4.1-.5.2"/><path fill="#028BB8" d="M18.7 71.8c.4 3.3 1.4 6.4 2.9 9.3l.8 1.5c.5.9 1.1 1.7 1.7 2.6c3 .2 5.7.3 8.2.2c4.9-.1 8.9-.7 12-1.7c.5-.2.9.1 1.1.5c.2.5-.1.9-.5 1.1c-.4.1-.8.3-1.3.4c-2.4.7-5.2 1.2-8.5 1.4h-.4c-1.3.1-2.7.1-4.1.1c-1.6 0-3.2 0-4.9-.1c6 6.8 15.5 10.8 27.3 10.8c21.4 0 40-8.1 50.8-26H18.7z"/><path fill="#019BC6" d="M23.5 71.8c1.3 5.8 4.3 10.4 8.8 13.5c4.9-.1 8.9-.7 12-1.7c.5-.2.9.1 1.1.5c.2.5-.1.9-.5 1.1c-.4.1-.8.3-1.3.4c-2.4.7-5.2 1.2-8.6 1.4c8.5 4.4 20.8 4.3 34.9-1.1c8.5-3.3 16.8-8.2 24.2-14.1z"/><path fill="#00ACD3" fill-rule="evenodd" d="M28.4 52.7h9.8v9.8h-9.8zm.8.8h.8v8.1h-.8zm1.4 0h.8v8.1h-.8zm1.5 0h.8v8.1h-.8zm1.5 0h.8v8.1h-.8zm1.5 0h.8v8.1h-.8zm1.5 0h.8v8.1h-.8zm3-12h9.8v9.8h-9.8zm.9.8h.8v8.1h-.8zm1.4 0h.8v8.1h-.8zm1.5 0h.8v8.1h-.8zm1.5 0h.8v8.1h-.8zm1.4 0h.8v8.1h-.8zm1.5 0h.8v8.1h-.8z" clip-rule="evenodd"/><path fill="#23C2EE" fill-rule="evenodd" d="M39.6 52.7h9.8v9.8h-9.8zm.9.8h.8v8.1h-.8zm1.4 0h.8v8.1h-.8zm1.5 0h.8v8.1h-.8zm1.5 0h.8v8.1h-.8zm1.4 0h.8v8.1h-.8zm1.5 0h.8v8.1h-.8z" clip-rule="evenodd"/><path fill="#00ACD3" fill-rule="evenodd" d="M50.9 52.7h9.8v9.8h-9.8zm.8.8h.8v8.1h-.8zm1.5 0h.8v8.1h-.8zm1.5 0h.8v8.1h-.8zm1.4 0h.8v8.1h-.8zm1.5 0h.8v8.1h-.8zm1.5 0h.8v8.1h-.8z" clip-rule="evenodd"/><path fill="#23C2EE" fill-rule="evenodd" d="M50.9 41.5h9.8v9.8h-9.8zm.8.8h.8v8.1h-.8zm1.5 0h.8v8.1h-.8zm1.5 0h.8v8.1h-.8zm1.4 0h.8v8.1h-.8zm1.5 0h.8v8.1h-.8zm1.5 0h.8v8.1h-.8zm3.1 10.4H72v9.8h-9.8zm.8.8h.8v8.1H63zm1.5 0h.8v8.1h-.8zm1.4 0h.8v8.1h-.8zm1.5 0h.8v8.1h-.8zm1.5 0h.8v8.1h-.8zm1.5 0h.8v8.1h-.8z" clip-rule="evenodd"/><path fill="#00ACD3" fill-rule="evenodd" d="M62.2 41.5H72v9.8h-9.8zm.8.8h.8v8.1H63zm1.5 0h.8v8.1h-.8zm1.4 0h.8v8.1h-.8zm1.5 0h.8v8.1h-.8zm1.5 0h.8v8.1h-.8zm1.5 0h.8v8.1h-.8z" clip-rule="evenodd"/><path fill="#23C2EE" fill-rule="evenodd" d="M62.2 30.2H72V40h-9.8zm.8.8h.8v8.1H63zm1.5 0h.8v8.1h-.8zm1.4 0h.8v8.1h-.8zm1.5 0h.8v8.1h-.8zm1.5 0h.8v8.1h-.8zm1.5 0h.8v8.1h-.8z" clip-rule="evenodd"/><path fill="#00ACD3" fill-rule="evenodd" d="M73.5 52.7h9.8v9.8h-9.8zm.8.8h.8v8.1h-.8zm1.4 0h.8v8.1h-.8zm1.5 0h.8v8.1h-.8zm1.5 0h.8v8.1h-.8zm1.5 0h.8v8.1h-.8zm1.5 0h.8v8.1h-.8z" clip-rule="evenodd"/><path fill="#D4EEF1" fill-rule="evenodd" d="M48.8 78.3c1.5 0 2.7 1.2 2.7 2.7c0 1.5-1.2 2.7-2.7 2.7c-1.5 0-2.7-1.2-2.7-2.7c0-1.5 1.2-2.7 2.7-2.7" clip-rule="evenodd"/><path fill="#3A4D54" fill-rule="evenodd" d="M48.8 79.1c.2 0 .5 0 .7.1c-.2.1-.4.4-.4.7c0 .4.4.8.8.8c.3 0 .6-.2.7-.4c.1.2.1.5.1.7c0 1.1-.9 1.9-1.9 1.9c-1.1 0-1.9-.9-1.9-1.9c0-1 .8-1.9 1.9-1.9M1.1 72.8h125.4c-2.7-.7-8.6-1.6-7.7-5.2c-5 5.7-16.9 4-20 1.2c-3.4 4.9-23 3-24.3-.8c-4.2 5-17.3 5-21.5 0c-1.4 3.8-21 5.7-24.3.8c-3 2.8-15 4.5-20-1.2c1.1 3.5-4.9 4.5-7.6 5.2" clip-rule="evenodd"/><path fill="#BFDBE0" d="M56 97.8c-6.7-3.2-10.3-7.5-12.4-12.2c-2.5.7-5.5 1.2-8.9 1.4c-1.3.1-2.7.1-4.1.1c-1.7 0-3.4 0-5.2-.1c6 6 13.6 10.7 27.5 10.8z"/><path fill="#D4EEF1" d="M46.1 89.9c-.9-1.3-1.8-2.8-2.5-4.3c-2.5.7-5.5 1.2-8.9 1.4c2.3 1.2 5.7 2.4 11.4 2.9"/></svg>
       </span>
       
 
       <span class="skills-name text-gray-700 dark:text-gray-300">
-        RStudio
+        Docker
         
       </span>
       
@@ -1401,61 +1409,12 @@
 
       
       <span class="skills-icon inline-block">
-        <svg style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><defs><linearGradient id="deviconMatlab0" x1="16.803" x2="15.013" y1="16.631" y2="22.411" gradientTransform="matrix(4 0 0 -4 0 128)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#512"/><stop offset=".23" stop-color="#523"/><stop offset=".36" stop-color="#534"/><stop offset=".51" stop-color="#645"/><stop offset=".66" stop-color="#568"/><stop offset=".84" stop-color="#29d"/></linearGradient><linearGradient id="deviconMatlab1" x1="29.71" x2="11.71" y1="18.983" y2="14.563" gradientTransform="scale(4)" gradientUnits="userSpaceOnUse"><stop offset=".081" stop-color="#c33"/><stop offset=".189" stop-color="#de5239"/><stop offset=".313" stop-color="#f06e3e"/><stop offset=".421" stop-color="#fa8042"/><stop offset=".5" stop-color="#fe8643"/><stop offset=".58" stop-color="#fa7f42"/><stop offset=".696" stop-color="#ef6c3e"/><stop offset=".833" stop-color="#dc4c37"/><stop offset=".916" stop-color="#cf3633"/></linearGradient></defs><path fill="#49d" d="m8 70.2l31.879-12.88a82.62 82.62 0 0 1 10.883-11.8c2.636-1.399 7.597-.641 16.68-11.918c8.796-11 11.597-20.403 15.718-20.403c6.52 0 11.32 14.082 18.602 35.403A461.75 461.75 0 0 0 120 96.48c-7.602-7.082-14.078-14.718-21.48-14.52c-6.88.161-14.52 8.321-22.88 18.802C69 109.16 60.2 114.922 56.763 114.8c0 0-8.883-25.121-16.32-29.2a10.563 10.563 0 0 0-9.563.797L8 70.16zm0 0"/><path fill="url(#deviconMatlab0)" d="M79.2 16.078c-2.68 3.602-5.92 10.203-11.76 17.524c-9.082 11.277-14 10.52-16.68 11.918a78.673 78.673 0 0 0-10.882 11.8l13.2 9.64C64.28 51.68 70.28 35.122 74.96 24.399a54.649 54.649 0 0 1 4.238-8.32zm0 0"/><path fill="url(#deviconMatlab1)" d="M83.2 13.2c-8.72 0-14.68 45.921-46.88 71.562c9.04-1.48 16.88 20.957 20.48 30.039c16-2.723 28.802-33.32 41.72-32.84c7.402.277 13.878 7.437 21.48 14.52C102.64 60 94.52 13.198 83.2 13.198zm0 0"/></svg>
+        <svg style="height: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><path fill="#090" d="M24.5 50.5c-1.5 0-2.5 1.2-2.5 2.7v14.1l-15.9-16c-.8-.8-2.2-1-3.2-.6S1 52.1 1 53.2v20.7c0 1.5 1.5 2.7 3 2.7s3-1.2 3-2.7V59.8l16.1 16c.5.5 1.2.8 1.9.8c.3 0 .4-.1.7-.2c1-.4 1.3-1.4 1.3-2.5V53.3c0-1.5-1-2.8-2.5-2.8m19.7 11.8c-1.4 0-2.7 1.4-2.7 2.8s1.3 2.8 2.7 2.8l6.6.4l-1.5 3.7h-8.5l-4.2-7.9l4.3-8.1H50l2.1 4h5.5L54 52.1l-.8-1.1H37.6l-.7 1.2L31 62.5l-.7 1.3l.7 1.3l5.8 10.3l.8 1.6h15.1l.7-1.7l4.3-9l1.9-4.3h-4.4zM65 50.5c-1.4 0-3 1.3-3 2.7V60h6v-6.7c0-1.5-1.6-2.8-3-2.8m30.4.3c-1-.4-2.4-.2-3.1.6L76 67.4V53.3c0-1.5-1-2.7-2.5-2.7S71 51.8 71 53.3V74c0 1.1.7 2.1 1.7 2.5c.3.1.7.2 1 .2c.7 0 1.6-.3 2.1-.8l16.2-16V74c0 1.5 1 2.7 2.5 2.7S97 75.5 97 74V53.3c0-1.1-.6-2.1-1.6-2.5m21.8 12.8l8.4-8.4c1.1-1.1 1.1-2.8 0-3.8c-1.1-1.1-2.8-1.1-3.8 0l-8.4 8.4l-8.4-8.4c-1.1-1.1-2.8-1.1-3.8 0c-1.1 1.1-1.1 2.8 0 3.8l8.4 8.4l-8.4 8.4c-1.1 1.1-1.1 2.8 0 3.8c.5.5 1.2.8 1.9.8s1.4-.3 1.9-.8l8.4-8.4l8.4 8.4c.5.5 1.2.8 1.9.8s1.4-.3 1.9-.8c1.1-1.1 1.1-2.8 0-3.8zM62 73.9c0 1.4 1.5 2.7 3 2.7c1.4 0 3-1.3 3-2.7V62h-6z"/></svg>
       </span>
       
 
       <span class="skills-name text-gray-700 dark:text-gray-300">
-        MATLAB
-        
-      </span>
-      
-    </div>
-    
-    
-    
-    
-    
-    
-
-    <div class="skills-content">
-
-      
-      <span class="skills-icon inline-block">
-        <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 25.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg style="height: 1em;" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 4331.1 3061.3" style="enable-background:new 0 0 4331.1 3061.3;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#DD1100;}
-	.st1{fill:#FFFFFF;}
-</style>
-<g id="Page-1">
-	<g id="mathematicaIcon">
-		<g id="mathematicaSpikeyBackground">
-			<path id="Shape" class="st0" d="M3354.3,1917l-344.7-386.4l344.7-386.4l-505.1-109.8l50.5-515.2l-473.5,208.3l-261.4-447
-				l-260.1,447l-473.5-208.3l50.5,515.2l-505.1,109.8l344.7,386.4L976.8,1917l505.1,109.8l-50.5,515.2l473.5-208.3l261.4,447
-				l260.1-447l474.7,208.3l-51.8-515.2L3354.3,1917z"/>
-		</g>
-		<path id="Shape_1_" class="st1" d="M2450.3,1144.3c0,0-113.6,72-290.4,73.2c-176.8,1.3-272.7-73.2-272.7-73.2s29,125-18.9,284.1
-			c-29,96-83.3,181.8-159.1,247.5c0,0,157.8,18.9,266.4,101c108.6,82.1,188.1,231.1,188.1,231.1s68.2-143.9,181.8-228.5
-			c113.6-84.6,275.3-102.3,275.3-102.3s-117.4-132.6-164.1-250C2411.2,1308.4,2450.3,1144.3,2450.3,1144.3z M2288.7,1699.9
-			c-75.8,50.5-123.7,138.9-123.7,138.9c-34.1-53-77-99.7-127.5-137.6c-49.2-35.4-106.1-59.3-165.4-72c0,0,66.9-80.8,94.7-170.5
-			c16.4-58.1,22.7-117.4,18.9-176.8c0,0,90.9,37.9,176.8,37.9c85.9,1.3,184.3-39.1,184.3-39.1s-22.7,101,6.3,183.1
-			s106.1,164.1,106.1,164.1C2398.5,1643,2341.7,1667,2288.7,1699.9z M2648.5,1358.9c-30.3-99.7,55.6-569.4,55.6-569.4
-			s-322,218.4-548,218.4s-529-218.4-529-218.4s99.7,340.9,39.1,559.3s-372.5,464.6-372.5,464.6s406.6,24,560.6,127.5
-			c154,103.5,310.6,505.1,310.6,505.1s208.3-441.9,295.5-505.1c87.1-63.1,577-127.5,577-127.5S2678.8,1458.7,2648.5,1358.9
-			L2648.5,1358.9z M2407.4,1865.3c-160.4,111.1-241.2,354.8-241.2,354.8s-119.9-267.7-252.5-358.6
-			c-131.3-90.9-401.5-114.9-401.5-114.9s208.3-184.3,258.8-348.5s-8.8-420.5-8.8-420.5s223.5,137.6,396.5,137.6
-			s411.6-137.6,411.6-137.6s-69.4,257.6-13.9,417.9c55.6,159.1,263.9,351,263.9,351S2567.7,1754.2,2407.4,1865.3L2407.4,1865.3z"/>
-	</g>
-</g>
-</svg>
-      </span>
-      
-
-      <span class="skills-name text-gray-700 dark:text-gray-300">
-        Mathematica
+        Nginx
         
       </span>
       

@@ -17,14 +17,15 @@ marketing:
     description: 'Academic site of Lewen Wang on computational and theoretical chemistry.'
     twitter: ''
   analytics:
-    google_analytics: 'G-EHH9478J69'
+    google_analytics: 'G-5FT9F48DR6'
     baidu_tongji: ''
     plausible: ''
     fathom: ''
     pirsch: ''
   verification:
-    google: 'B7g6nS0F-AgkC-FvNfGSSCiG6WmZn6_HDI6Kw-51trA'
+    google: 'OsBBSuNlUCAThlPHszjlp0Mahpfmy6LBlHiVgf6jt-w'
     baidu: ''
+
 
 # Site header
 header:

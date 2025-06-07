@@ -7,11 +7,15 @@ en:
   languageCode: en-us
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   contentDir: content/en
+  # outputs:
+  #   home: [HTML, RSS, JSON]
 
 # Uncomment the lines below to configure your website in a second language.
 zh:
   languageCode: zh-Hans
   contentDir: content/zh
+  # outputs:
+  #   home: [HTML, RSS, JSON]
   title: 王乐文
   params:
     header:
@@ -19,7 +23,7 @@ zh:
         enable: true
         blox: "navbar"
         fixed_to_top: true
-        show_search: false
+        show_search: true
         show_theme_chooser: true
         logo:
           text: "王乐文"

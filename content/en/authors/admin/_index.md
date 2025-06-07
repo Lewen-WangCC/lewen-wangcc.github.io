@@ -67,9 +67,9 @@ work:
     date_start: 2022-09-01
     date_end: 2024-03-31
     summary: |
-      - Led system-level hardware and software testing for new networking products (e.g., TL-NR1200W-SD 1.0 and TL-R470E-SD 1.0), including bug identification, logging, and regression testing.
-      - Developed automated testing frameworks for SD-WAN features and link aggregation using Pytest, incorporating Docker-based virtual topologies, interface scripting, and assertion logic.
-      - Participated in extensive validation of various features such as SD-WAN 1.0/2.0, network mapping, commercial cloud integration, DHCP, IPv6, and more.
+      - Led and coordinated system-level hardware and software testing for new product models (e.g., TL-NR1200W-SD 1.0 and TL-R470E-SD 1.0) as the testing lead.
+      - Developed an automated testing framework for SD-WAN features and interface bonding using Pytest, integrating Docker-based virtual topologies, interface scripting, and assertion logic.
+      - Participated in extensive validation of features such as SD-WAN 1.0/2.0, network mapping, commercial cloud integration, DHCP, and IPv6 across multiple models.
       - Built virtual test environments using Docker-deployed Nginx servers to simulate internal network scenarios tailored to test requirements.
 
 # Skills
@@ -80,13 +80,13 @@ skills:
       - name: Gaussian
         description: ''
         icon: ''
-      - name: Quantum ESPRESSO
+      - name: GROMACS
         description: ''
         icon: ''
   - name: Programming Languages
     items:
       - name: Python
-        description: 'Numpy, Sk-learn, Pytest, Tensorflow'
+        description: NumPy, Sk-learn, Pytest, Tensorflow
         icon: devicon/python
       - name: C/C++
         description: ''
