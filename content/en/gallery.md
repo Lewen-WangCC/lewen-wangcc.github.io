@@ -10,26 +10,58 @@ design:
 sections:
   - block: markdown
     content:
+      title: 2025
+      text: |-
+        **May 21**
+
+        My First 100km Ride.🚴
+        ![cycling_record](/media/gallery/2025/cycling_record.JPG)
+
+
+  - block: markdown
+    content:
+      title: 2024
+      text: |-
+        **May 21**
+        
+        Science! In NUS, Singapore.
+        ![science](/media/gallery/2024/science.JPG)
+
+        **February 17**
+
+        Sunset in XiaMen.
+        ![sunset](/media/gallery/2024/sunset.JPG)
+
+  - block: markdown
+    content:
       title: 2023
       text: |-
-        This photo was taken in November 2023, when our people in the Powell Group celebrated Dr Nadeem Natt's completion of his PhD 🍻
-        ![powellgroup](powellgroup.jpg)
+        **December 16**
+
+        Traveled to ChongQing (again).
+        ![Bro](/media/gallery/2023/gold_and_iron.JPG)
+        ![hongyadong](/media/gallery/2023/hongyadong.JPG)
+        
+        **December 1**
+        
+        My two sweethearts.
+        ![bobby](/media/gallery/2023/bobby.JPG)
+        ![sis](/media/gallery/2023/sis.JPG)
+
   - block: markdown
     content:
       title: 2022
       text: |-
-        This is my first poster! It was exciting to tell people about my project, especially when they were interested in my research 😄
-        ![poster](poster.jpg)
-        I visited Lone Pine with the Krenske Group in August to see the cute koalas 🐨
-        ![krenskegroup](krenskegroup.jpg)
-  - block: markdown
-    content:
-      title: 2021
-      text: |-
-        Sports Day during my internship at BGI 🏆
-        ![bgi](bgi.jpg)
-        With colleagues from IMPAQ at the seaside in Shenzhen 🌊
-        ![impaq](impaq.jpg) 
-        I was working in the lab 👩‍🔬
-        ![lab](lab.jpg) 
+        **October 21**
+
+        Have a look at my testing topo, what a mess!
+        ![testing_topo](/media/gallery/2022/testing_topo.JPG)
+        
+        **June 25**
+        
+        Graduation photo taken at Sun Yat-sen University 🎓 .
+        ![master_graduation](/media/gallery/2022/graduation.JPG)
+        I achieved something I had dreamed of since I was little! 
+        ![child_graduation](/media/gallery/2022/child_graduation.JPG)
+
 ---

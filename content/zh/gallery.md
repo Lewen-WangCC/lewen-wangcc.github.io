@@ -1,5 +1,5 @@
 ---
-title: '画廊'
+title: 'Gallery'
 date: "2024-12-30T10:00:00+08:00"
 type: landing
 
@@ -10,26 +10,58 @@ design:
 sections:
   - block: markdown
     content:
+      title: 2025
+      text: |-
+        **5月21日**
+
+        记录一下第一次百公里骑行。
+        ![cycling_record](/media/gallery/2025/cycling_record.JPG)
+
+
+  - block: markdown
+    content:
+      title: 2024
+      text: |-
+        **5月21日**
+        
+        逛逛新国立，吸收一下灵气。
+        ![science](/media/gallery/2024/science.JPG)
+
+        **2月17日**
+
+        厦门银海路落日。
+        ![sunset](/media/gallery/2024/sunset.JPG)
+
+  - block: markdown
+    content:
       title: 2023
       text: |-
-        这张照片拍摄于2023年的11月，我们Powell小组为了庆祝Dr Nadeem Natt取得他的博士学位在Saint Lucy聚餐 🍻
-        ![powellgroup](powellgroup.jpg)
+        **12月16日**
+
+        会发光的吧，老铁。
+        ![Bro](/media/gallery/2023/gold_and_iron.JPG)
+        ![hongyadong](/media/gallery/2023/hongyadong.JPG)
+        
+        **12月1日**
+        
+        两只喵。
+        ![bobby](/media/gallery/2023/bobby.JPG)
+        ![sis](/media/gallery/2023/sis.JPG)
+
   - block: markdown
     content:
       title: 2022
       text: |-
-        这是我的第一张学术海报！向大家介绍我的项目非常有意思，尤其是当他们对我的研究表现出兴趣时 😄
-        ![poster](poster.jpg)
-        八月份我和Krenske小组一起去了龙柏考拉保护区，看到了非常可爱的考拉 🐨
-        ![krenskegroup](krenskegroup.jpg)
-  - block: markdown
-    content:
-      title: 2021
-      text: |-
-        我在华大基因实习期间参加的集团运动会 🏆
-        ![bgi](bgi.jpg)
-        和英柏的同事在深圳的海边团建 🌊
-        ![impaq](impaq.jpg) 
-        穿实验服工作的我 👩‍🔬
-        ![lab](lab.jpg) 
+        **10月21日**
+
+        两眼发昏。
+        ![testing_topo](/media/gallery/2022/testing_topo.JPG)
+        
+        **6月25日**
+        
+        毕业咯 🎓 。
+        ![master_graduation](/media/gallery/2022/graduation.JPG)
+        完成了我小时候的一个梦想！ 
+        ![child_graduation](/media/gallery/2022/child_graduation.JPG)
+
 ---

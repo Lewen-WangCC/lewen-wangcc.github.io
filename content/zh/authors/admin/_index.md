@@ -82,7 +82,7 @@ skills:
   - name: 编程语言
     items:
       - name: Python
-        description: NumPy, Sk-learn, Pytest, Tensorflow
+        description: NumPy, Scikit-learn, Pytest, Tensorflow
         icon: devicon/python
       - name: C/C++
         description: ''

@@ -6,7 +6,7 @@ design:
   spacing: "3rem"
 
 sections:
-  - block: feature
+  - block: feature_publication
     title: "Selected Publications"
     content:
       groups:
