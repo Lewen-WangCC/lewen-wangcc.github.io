@@ -109,4 +109,4 @@ Hello my friends, welcome to my homepage! I am an incoming Ph.D. student in [the
 
 I received my Bachelor’s degree in Polymer Materials and Engineering from Beijing University of Chemical Technology (2016–2020), and later completed my Master’s studies in Materials and Chemical Engineering at Sun Yat-sen University (2020–2022) under the supervision of [Prof. Yecheng Zhou](https://mse.sysu.edu.cn/teacher/198). 
 
-Outside of academics, I enjoy playing badmintonand cycling.
+Outside of academics, I enjoy playing badmintonand and cycling.
