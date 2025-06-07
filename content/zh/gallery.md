@@ -15,7 +15,7 @@ sections:
         **5月21日**
 
         记录一下第一次百公里骑行。
-        ![cycling_record](/media/gallery/2025/cycling_record.JPG)
+        ![cycling_record](/media/gallery/2025/cycling_record.jpg)
 
 
   - block: markdown
@@ -25,7 +25,7 @@ sections:
         **5月21日**
         
         逛逛新国立，吸收一下灵气。
-        ![science](/media/gallery/2024/science.JPG)
+        ![science](/media/gallery/2024/science.jpg)
 
         **2月17日**
 

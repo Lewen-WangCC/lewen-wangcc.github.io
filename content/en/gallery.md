@@ -15,7 +15,7 @@ sections:
         **May 21**
 
         My First 100km Ride.🚴
-        ![cycling_record](/media/gallery/2025/cycling_record.JPG)
+        ![cycling_record](/media/gallery/2025/cycling_record.jpg)
 
 
   - block: markdown
@@ -25,7 +25,7 @@ sections:
         **May 21**
         
         Science! In NUS, Singapore.
-        ![science](/media/gallery/2024/science.JPG)
+        ![science](/media/gallery/2024/science.jpg)
 
         **February 17**
 
