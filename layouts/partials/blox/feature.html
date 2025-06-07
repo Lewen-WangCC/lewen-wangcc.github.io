@@ -1,0 +1,91 @@
+{{ $groups := .wcBlock.content.groups }}
+
+{{ if $groups }}
+  <style>
+    .pub-year {
+      text-align: center;
+      font-size: 2.2em;
+      font-weight: bold;
+      margin: 0.1rem 0 1.2rem 0;
+      /* 不加color，完全继承主题色 */
+    }
+    .pub-card {
+      display: flex;
+      align-items: flex-start;
+      gap: 1.5rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 1rem;
+      background-color: transparent !important;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      transition: box-shadow 0.2s;
+      margin-bottom: 0.5rem;
+    }
+    .pub-img {
+      width: 160px;
+      height: auto;
+      object-fit: contain;
+      border-radius: 4px;
+      flex-shrink: 0;
+    }
+    .pub-title a {
+      color: #3366cc;
+      text-decoration: none;
+    }
+    .pub-title {
+      margin: 0;
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+    .pub-subtitle { margin: 0.25rem 0; font-style: italic; color: #666; }
+    .pub-text { margin-top: 0.5rem; }
+    .pub-attachments { margin-top: 0.5rem; }
+    .pub-attachments a {
+      display: inline-block; margin-right: 0.8em; padding: 0.4rem 1rem;
+      background: #1976d2; color: #fff; border-radius: 4px; text-decoration: none;
+      font-size: 0.95em; transition: background 0.2s;
+    }
+    .pub-attachments a:hover { background: #003c7e; }
+  </style>
+  <div style="max-width: 860px; margin: 0 auto; display: flex; flex-direction: column; gap: 2.5rem; padding: 1rem;">
+    {{ range $groups }}
+      <div>
+        <!-- 年份部分用markdown渲染，继承主题正文色 -->
+        <div class="pub-year">{{ .yeartext | markdownify }}</div>
+        <div style="display: flex; flex-direction: column; gap: 2rem;">
+          {{ range .items }}
+            <div class="pub-card">
+              {{ if .image }}
+                <img class="pub-img" src="{{ .image }}" alt="{{ .title }}">
+              {{ end }}
+              <div style="flex: 1;">
+                <h3 class="pub-title">
+                  {{ if .link }}
+                    <a href="{{ .link }}" target="_blank" rel="noopener noreferrer">{{ .title | safeHTML}}</a>
+                  {{ else }}
+                    {{ .title }}
+                  {{ end }}
+                </h3>
+                {{ if .subtitle }}
+                  <p class="pub-subtitle">{{ .subtitle }}</p>
+                {{ end }}
+                {{ if .text }}
+                  <p class="pub-text">{{ .text | markdownify }}</p>
+                {{ end }}
+                {{ if .attachments }}
+                  <div class="pub-attachments">
+                    {{ range .attachments }}
+                      <a href="{{ .url }}" download target="_blank">{{ .label }}</a>
+                    {{ end }}
+                  </div>
+                {{ end }}
+              </div>
+            </div>
+          {{ end }}
+        </div>
+      </div>
+    {{ end }}
+  </div>
+{{ else }}
+  <p style="color: red;">❌ .wcBlock.content.groups not found</p>
+{{ end }}

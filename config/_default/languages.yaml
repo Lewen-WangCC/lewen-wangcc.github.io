@@ -32,8 +32,8 @@ zh:
       - name: 关于我
         url: /
         weight: 10
-      - name: 研究
-        url: research/
+      - name: 发表论文
+        url: publication/
         weight: 25
       - name: 经历
         url: experience/

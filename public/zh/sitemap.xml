@@ -44,60 +44,17 @@
                 href="http://localhost:1313/zh/experience/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/research/project1/</loc>
-    <lastmod>2024-01-29T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/zh/publication/</loc>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/research/project1/"
+                href="http://localhost:1313/publication/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-Hans"
-                href="http://localhost:1313/zh/research/project1/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zh/research/</loc>
-    <lastmod>2024-01-29T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/research/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-Hans"
-                href="http://localhost:1313/zh/research/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zh/research/project2/</loc>
-    <lastmod>2022-11-25T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/research/project2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-Hans"
-                href="http://localhost:1313/zh/research/project2/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zh/research/project3/</loc>
-    <lastmod>2022-06-22T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/research/project3/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-Hans"
-                href="http://localhost:1313/zh/research/project3/"
+                href="http://localhost:1313/zh/publication/"
                 />
   </url>
 </urlset>
