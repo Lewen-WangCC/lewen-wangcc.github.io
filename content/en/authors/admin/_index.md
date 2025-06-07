@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Huiwen Tan
+title: Lewen Wang
 
 # Full name (for SEO)
-first_name: Huiwen
-last_name: Tan
+first_name: Lewen
+last_name: Wang
 
 # Is this the primary user of the site?
 superuser: true
@@ -12,81 +12,72 @@ superuser: true
 # Role/position/tagline
 role: Incoming Ph.D. Student
 
+status:
+  icon: 💻
+
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: The Chinese University of Hong Kong
-    url: https://www.cuhk.edu.hk/english/index.html
+  - name: Hong Kong Baptist University
+    url: https://www.hkbu.edu.hk/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:huiwen.tan25@outlook.com'
+    url: 'mailto:wanglw29@mail3.sysu.edu.cn'
     label: E-mail Me
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/huiwen-tan-4aa8901b2/
-  - icon: custom/Red
-    url: https://www.xiaohongshu.com/user/profile/651b83dc000000002302476d
-  - icon: brands/instagram
-    url: https://www.instagram.com/camilleethw
+  # - icon: brands/linkedin
+  #   url: https://www.linkedin.com/in/huiwen-tan-4aa8901b2/
+  # - icon: custom/Red
+  #   url: https://www.xiaohongshu.com/user/profile/651b83dc000000002302476d
   - icon: brands/github
-    url: https://github.com/Huiwen-Tan
+    url: https://github.com/Lewen-WangCC
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=6Oj_nRQAAAAJ&hl=en&oi=ao
+    label: Google Scholar
   - icon: brands/orcid
-    url: https://orcid.org/0009-0003-9663-7689
-
+    url: https://orcid.org/0009-0001-1741-773X
+  - icon: brands/instagram
+    url: https://www.instagram.com/baisimu_lemon/
 
 education:
-  - area: Bachelor of Advanced Science with Class I Honours
-    institution: The University of Queensland
-    date_start: 2020-02-01
-    date_end: 2024-12-13
+  - area: Master of Engineering in Materials and Chemical Engineering
+    institution: Sun Yat-sen University
+    date_start: 2020-09-01
+    date_end: 2022-06-30
     summary: |
-      - Major Coursework: Physical Chemistry; Advanced Inorganic Chemistry; Determination of Molecular Structure; Calculus & Linear Algebra I & II; Multivariate Calculus & Ordinary Differential Equations; Quantum Mechanics I; Mathematical Probability
-      - Awards and Honours: Dean’s Commendation for Academic Excellence in Semester 1, 2020 and Semester 2, 2024; Summer Scholarship for 2022/23 Summer Research Program
+      - Major Coursework: Polymer Materials Science and Engineering; Electron microscopy and analysis; Preparation Technology of Photovoltaic Materials; Practice for energy materials and devices
+      - Research Area: Computational Study of Organic Semiconductor Materials
+      - Awards and Honours: Third Prize of Scholarship for Postgraduates in 2020, 2021
+  
+  - area: Bachelor of Engineering in Polymer Materials and Engineering
+    institution: Beijing University of Chemical Technology
+    date_start: 2016-09-01
+    date_end: 2020-06-30
+    summary: |
+      - Major Coursework: Physical Chemistry; Polymer Materials; Polymer Chemistry; Polymer Physics; Calculus; Linear Algebra; Mathematical Probability
+      - Awards and Honours: Third Prize of People's Scholarship in 2019
 
 
 work:
-  - position: Casual Academics
-    company_name: The University of Queensland
-    company_url: https://www.uq.edu.au/
+  - position: Testing Engineer
+    company_name: TP-Link Technologies Co., Ltd.
+    company_url: https://www.tp-link.com.cn/
     company_logo: ''
-    date_start: 2024-02-01
-    date_end: 2024-12-01
+    date_start: 2022-09-01
+    date_end: 2024-03-31
     summary: |
-      - Taught and demonstrated the laboratory sessions of a chemistry course, CHEM1100: Chemistry 1, in Semesters 1 & 2, 2024, supervised 15-20 students
-      - Participated in the assignments and exams marking
-      - Assisted in the school-based in-semester and end-of-semester exams invigilation
-  - position: Administrative Intern
-    company_name: Beijing Genomics Institute
-    company_url: https://en.genomics.cn/
-    company_logo: ''
-    date_start: 2021-10-01
-    date_end: 2021-12-31
-    summary: |
-      - Responsible for the laboratory management of the whole Institute of Biochemistry
-      - Supported the daily operation of the laboratory and administered the procurement of materials
-  - position: Testing Technician
-    company_name: IMPAQ Testing Technology Co., LTD
-    company_url: https://www.impaq-tech.com/en
-    company_logo: ''
-    date_start: 2021-08-01
-    date_end: 2021-10-01
-    summary: |
-      - Third-party testing of consumer products such as textiles, clothing and baby products
-      - Responsible for laboratory daily testing, including the determination of pH value, formaldehyde and heavy metal contents of samples
+      - Led system-level hardware and software testing for new networking products (e.g., TL-NR1200W-SD 1.0 and TL-R470E-SD 1.0), including bug identification, logging, and regression testing.
+      - Developed automated testing frameworks for SD-WAN features and link aggregation using Pytest, incorporating Docker-based virtual topologies, interface scripting, and assertion logic.
+      - Participated in extensive validation of various features such as SD-WAN 1.0/2.0, network mapping, commercial cloud integration, DHCP, IPv6, and more.
+      - Built virtual test environments using Docker-deployed Nginx servers to simulate internal network scenarios tailored to test requirements.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Computational Chemistry Software
     items:
-      - name: VASP
-        description: ''
-        icon: ''
       - name: Gaussian
-        description: ''
-        icon: ''
-      - name: ADF
         description: ''
         icon: ''
       - name: Quantum ESPRESSO
@@ -95,7 +86,7 @@ skills:
   - name: Programming Languages
     items:
       - name: Python
-        description: NumPy, SciPy, Matplotlib, ASE, Phonopy, pymatgen
+        description: 'Numpy, Sk-learn, Pytest, Tensorflow'
         icon: devicon/python
       - name: C/C++
         description: ''
@@ -103,22 +94,19 @@ skills:
       - name: Bash
         description: ''
         icon: devicon/bash
-  - name: ''
+  - name: 'Others'
     items:
-      - name: RStudio
+      - name: Docker
         description: ''
-        icon: devicon/rstudio
-      - name: MATLAB
+        icon: devicon/docker
+      - name: Nginx
         description: ''
-        icon: devicon/matlab
-      - name: Mathematica
-        description: ''
-        icon: custom/mathematica
+        icon: devicon/nginx
 
 ---
 
-Welcome to my homepage! I am an incoming Ph.D. student in [the Department of Chemistry, The Chinese University of Hong Kong](https://chem.cuhk.edu.hk/), advised by [Dr. Xinglong Zhang](https://xinglong-zhang.github.io/index.html). Currently, our research focuses on developing computational chemistry tools to automate workflows and accelerate chemical discovery.
+Hello my friends, welcome to my homepage! I am an incoming Ph.D. student in [the Department of Chemistry, Hong Kong Baptist University](https://www.hkbu.edu.hk/), advised by [Prof. Jun (Jolle) Wang](https://chem.hkbu.edu.hk/junwang). My research will focus on applying Machine Learning on organophosphorus reaction development.
 
-Prior to this, I obtained my Bachelor of Advanced Science with First-Class Honours at [the University of Queensland](https://scmb.uq.edu.au/profile/12166/huiwen-tan), under the supervision of [Prof. Ben Powell](https://people.smp.uq.edu.au/BenPowell/index.html) and [Dr Carla Verdi](https://sites.google.com/view/carla-verdi/home). 
+I received my Bachelor’s degree in Polymer Materials and Engineering from Beijing University of Chemical Technology (2016–2020), and later completed my Master’s studies in Materials and Chemical Engineering at Sun Yat-sen University (2020–2022) under the supervision of [Prof. Yecheng Zhou](https://mse.sysu.edu.cn/teacher/198). 
 
-My undergraduate research revolved around first-principles calculations of strongly correlated materials combined with machine learning-accelerated _ab initio_ molecular dynamics simulations, aiming to understand fascinating emergent behaviours in condensed matter phases. 
+Outside of academics, I enjoy playing badminton—my go-to racket is the LiNing HALBERTEC 8000—and cycling, where I’m a “rookie” averaging around 28 km/h over 100 km rides.

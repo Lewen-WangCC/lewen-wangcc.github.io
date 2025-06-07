@@ -13,8 +13,8 @@ marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: 'The Chinese University of Hong Kong'
-    description: 'Academic site of Huiwen Tan on computational and theoretical chemistry.'
+    org_name: 'Hong Kong Baptist University'
+    description: 'Academic site of Lewen Wang on computational and theoretical chemistry.'
     twitter: ''
   analytics:
     google_analytics: 'G-EHH9478J69'
@@ -35,12 +35,12 @@ header:
     show_search: true
     show_theme_chooser: true
     logo:
-      text: "Huiwen Tan"
+      text: "Lewen Wang"
 
 # Site footer
 footer:
   copyright:
-    notice: '© 2025 Huiwen Tan'
+    notice: '© 2025 Lewen Wang'
     license:
       enable: true
       allow_derivatives: true
