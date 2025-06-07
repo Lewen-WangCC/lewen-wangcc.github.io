@@ -1,5 +1,5 @@
 ---
-title: 'Gallery'
+title: '画廊'
 date: "2024-12-30T10:00:00+08:00"
 type: landing
 
