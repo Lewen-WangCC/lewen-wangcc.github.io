@@ -64,4 +64,18 @@ sections:
         完成了我小时候的一个梦想！ 
         ![child_graduation](/media/gallery/2022/child_graduation.JPG)
 
+        **6月15日**
+
+        第二次一起拍毕业照。
+        ![dog](/media/gallery/2022/me_and_darling.jpg)
+
+  - block: markdown
+    content:
+      title: 2019
+      text: |-
+        **6月20日**
+
+        假装跟她同届毕业。
+        ![buct_graduation](/media/gallery/2019/buct_graduation.jpg)
+
 ---
