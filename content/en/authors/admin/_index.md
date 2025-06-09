@@ -105,8 +105,8 @@ skills:
 
 ---
 
-Hello my friends, welcome to my homepage! I am an incoming Ph.D. student in [the Department of Chemistry, Hong Kong Baptist University](https://www.hkbu.edu.hk/), advised by [Prof. Jun (Joelle) Wang](https://chem.hkbu.edu.hk/junwang). My research will focus on applying Machine Learning on organophosphorus compounds development.
+Hello my friends, welcome to my homepage! I am an incoming Ph.D. student in [the Department of Chemistry, Hong Kong Baptist University](https://chem.hkbu.edu.hk/), advised by [Prof. Jun (Joelle) Wang](https://chem.hkbu.edu.hk/junwang). Also, I am a visiting student in [the Department of Chemistry, The Chinese University of Hong Kong](https://chem.cuhk.edu.hk/), working with [Prof. Xinglong Zhang](https://xinglong-zhang.github.io/index.html). My research will focus on applying Machine Learning on organophosphorus compounds development.
 
-I received my Bachelor’s degree in Polymer Materials and Engineering from Beijing University of Chemical Technology (2016–2020), and later completed my Master’s studies in Materials and Chemical Engineering at Sun Yat-sen University (2020–2022) under the supervision of [Prof. Yecheng Zhou](https://mse.sysu.edu.cn/teacher/198). 
+I received my Bachelor’s degree in Polymer Materials and Engineering from [Beijing University of Chemical Technology](https://www.buct.edu.cn/) (2016–2020), and later completed my Master’s studies in Materials and Chemical Engineering at [Sun Yat-sen University](https://www.sysu.edu.cn/) (2020–2022) under the supervision of [Prof. Yecheng Zhou](https://mse.sysu.edu.cn/teacher/198). 
 
 Outside of academics, I enjoy playing badminton and cycling.
