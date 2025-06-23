@@ -64,17 +64,4 @@ sections:
         I achieved something I had dreamed of since I was little! 
         ![child_graduation](/media/gallery/2022/child_graduation.JPG)
 
-        **June 15**
-
-        Ready to gradutate!
-        ![dog](/media/gallery/2022/me_and_darling.jpg)
-
-  - block: markdown
-    content:
-      title: 2019
-      text: |-
-        **June 20**
-
-        Borrow a graduation gown so I can pretend to graduate the same year as her.
-        ![buct_graduation](/media/gallery/2019/buct_graduation.jpg)
 ---
