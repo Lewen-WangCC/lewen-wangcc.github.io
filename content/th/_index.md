@@ -1,5 +1,5 @@
 ---
-title: 'About Me'
+title: "เกี่ยวกับฉัน" 
 date: "2024-12-30T10:00:00+08:00"
 type: landing
 
@@ -16,7 +16,7 @@ sections:
       username: admin
       # Show a call-to-action button under your biography? (optional)
       button:
-        text: Download Résumé
+        text: ดาวน์โหลดเรซูเม่
         url: /uploads/resume.pdf?v=202501
     design:
       banner:

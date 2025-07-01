@@ -17,7 +17,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: 下载简历
-        url: /uploads/resume.pdf
+        url: /uploads/resume.pdf?v=202501
     design:
       banner:
         # Upload your cover image to the `assets/media/` folder and reference it here

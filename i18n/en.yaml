@@ -1,0 +1,15 @@
+- id: experience
+  translation: "Experience"
+- id: education
+  translation: "Education"
+- id: skills
+  translation: "Skills"
+- id: publications
+  translation: "Publications"
+- id: gallery
+  translation: "Gallery"
+- id: contact
+  translation: "Contact"
+- id: languages
+  translation: "Languages"
+

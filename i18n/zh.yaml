@@ -1,0 +1,15 @@
+- id: experience
+  translation: "工作经历"
+- id: education
+  translation: "教育经历"
+- id: skills
+  translation: "技能"
+- id: publications
+  translation: "发表论文"
+- id: gallery
+  translation: "画廊"
+- id: contact
+  translation: "联系"
+- id: languages
+  translation: "语言"
+

@@ -11,9 +11,12 @@ baseURL: 'https://lewen-wangcc.github.io/' # Website URL
 ############################
 
 defaultContentLanguage: en
-hasCJKLanguage: false
+hasCJKLanguage: true
 defaultContentLanguageInSubdir: false
 removePathAccents: true
+
+# Enable multilingual mode
+enableMissingTranslationPlaceholders: true
 
 ############################
 ## ADVANCED

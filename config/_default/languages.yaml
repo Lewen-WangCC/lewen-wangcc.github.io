@@ -5,17 +5,17 @@
 # Default language
 en:
   languageCode: en-us
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
+  languageName: English
+  weight: 1
   contentDir: content/en
-  # outputs:
-  #   home: [HTML, RSS, JSON]
+  
 
-# Uncomment the lines below to configure your website in a second language.
+# Chinese language
 zh:
   languageCode: zh-Hans
+  languageName: 中文
+  weight: 2
   contentDir: content/zh
-  # outputs:
-  #   home: [HTML, RSS, JSON]
   title: 王乐文
   params:
     header:
@@ -27,7 +27,7 @@ zh:
         show_theme_chooser: true
         logo:
           text: "王乐文"
-  menu:
+
     main:
       - name: 关于我
         url: /
@@ -39,5 +39,37 @@ zh:
         url: experience/
         weight: 40
       - name: 画廊
+        url: gallery/
+        weight: 55
+
+# Thai language configuration
+th:
+  languageCode: th
+  languageName: ไทย
+  weight: 3
+  contentDir: content/th
+  title: เลอเหวิน หวัง
+  params:
+    header:
+      navbar:
+        enable: true
+        blox: "navbar"
+        fixed_to_top: true
+        show_search: true
+        show_theme_chooser: true
+        logo:
+          text: "เลอเหวิน หวัง"
+  menu:
+    main:
+      - name: เกี่ยวกับฉัน
+        url: /
+        weight: 10
+      - name: งานตีพิมพ์
+        url: publication/
+        weight: 25
+      - name: ประสบการณ์
+        url: experience/
+        weight: 40
+      - name: แกลเลอรี่
         url: gallery/
         weight: 55
