@@ -17,7 +17,7 @@ sections:
               subtitle: "J. Chem. Inf. Model. 2023, 63, 16, 5089–5096"
               text: "Jiacheng Ma, Zhenya Du, Zhanpeng Lei, **Lewen Wang**, Yinye Yu, Xin Ye, Wen Ou, Xingzhan Wei, Bin Ai and Yecheng Zhou*"
               image: /media/publication/2023/3c00786.png
-              link: DOI	https://doi.org/10.1021/acs.jcim.3c00786
+              link: https://doi.org/10.1021/acs.jcim.3c00786
               # attachments:
               #   - url: "/uploads/resume.pdf"
               #     label: "PDF"
@@ -26,7 +26,7 @@ sections:
               subtitle: "Mater. Horiz., 2023,10, 607-618"
               text: "Junxin Chen, Shengyu Cong*, **Lewen Wang**, Yazhou Wang, Liuyuan Lan, Chaoyue Chen, Yecheng Zhou, Zhengke Li, Iain McCullochb and Wan Yue* "
               image: /media/publication/2023/D2MH01100J.png
-              link: DOI	https://doi.org/10.1039/D2MH01100J
+              link: https://doi.org/10.1039/D2MH01100J
 
         - year: 2022
           yeartext: "**2022**"

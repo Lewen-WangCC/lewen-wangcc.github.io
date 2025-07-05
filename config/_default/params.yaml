@@ -49,8 +49,6 @@ footer:
       allow_derivatives: true
       share_alike: true
       allow_commercial: true
-  published_with: '{hugoblox} — the free, {link} website builder that empowers creators.'
-
 # Localization
 locale:
   date_format: 'Jan 2, 2006'
